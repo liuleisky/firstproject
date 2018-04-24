@@ -1,0 +1,365 @@
+.content{
+	font-family:"黑体" ;
+}
+
+/*将搜索框放在最右边*/
+.search{
+	height: 48px;
+}
+
+.search form{
+	margin-right: 0px;
+}
+
+
+.head_bg p .select{
+	width: 168px;
+	height: 20px;
+	border: 1px solid #d9d9d9;
+}
+
+/*全部商品标题*/
+.shopping_title_con{
+	height: 60px;
+	width: 1200px;
+	background-color: #f2f2f2;
+	line-height: 60px;
+	font-size: 18px;
+	color: #808080;
+}
+
+.shopping_title_con .btn1{
+	width: 16px;
+	height: 16px;
+	border: 1px solid #ccc;
+	outline: none;
+	margin-left: 22px;
+	background-color: #f5f5f5;
+}
+
+.shopping_title_con .span1{
+	margin: 0px 344px 0px 182px;
+}
+
+.shopping_title_con .span2{
+	margin: 0px 106px 0px 124px;
+}
+
+.shopping_title_con .span3{
+	margin: 0px 0px 0px 84px;
+}
+
+/*商品内容*/
+/*.shopping_con{
+	height: 418px;
+	border-top: 6px solid #dfdfdf;
+	font-size: 16px;
+	color: #4c4c4c;
+}
+
+.shopping_con .shopping_con_list{
+	height: 184px;
+	border-bottom: 2px solid #e6e6e6;
+}
+
+.shopping_con .shopping_con_list .btn2{
+	width: 16px;
+	height: 16px;
+	border: 1px solid #ccc;
+	outline: none;
+	margin-left: 22px;
+	background-color: #fff;
+}
+.shopping_con .shopping_con_list .chooseCurrent{
+	background-color: #f60;
+}
+
+.shopping_con .shopping_con_list .shopping_box{
+	width: 158px;
+	height: 158px;
+	border: 1px solid #e6e6e6;
+	margin: 0px 30px 0px 33px;
+	text-align: center;
+	line-height: 158px;
+}
+
+.shopping_con .shopping_con_list p:nth-of-type(2){
+	margin: 22px 78px 0px 258px;
+}
+
+.shopping_con .shopping_con_list p:nth-of-type(3){
+	margin: 22px 84px 0px 60px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.shopping_con .shopping_con_list .shopping_btn1 button{
+	width: 26px;
+	height: 26px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+}
+.shopping_con .shopping_con_list .shopping_btn1 input{
+	width: 72px;
+	height: 24px;
+	border: 1px solid #ccc;
+	border-left: none;
+	border-right: none;
+	text-align: center;
+	line-height: 24px;
+	margin-top:18px ;
+}
+
+.shopping_con .shopping_con_list .shop_function{
+	width: 110px;
+	height:60px;
+	margin-top: 20px;
+}
+
+.shopping_con .shopping_con_list .shop_function .disbtn{
+	border: none;
+	background-color: #fff;
+	margin-bottom: 10px;
+	cursor: pointer;
+}*/
+
+/*结算样式*/
+/*.shopping_totalprices .shopping_totalprices_left{
+	width: 1070px;
+	height: 58px;
+	border: 1px solid #ccc;
+	line-height: 58px;
+	color: #808080;
+}
+
+.shopping_totalprices .shopping_totalprices_left .btnall{
+	width: 16px;
+	height: 16px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	margin-left:22px ;
+}
+
+.shopping_totalprices .shopping_totalprices_left .span4{
+	margin: 0px 544px 0px 32px;
+}
+
+.shopping_totalprices .shopping_totalprices_left .zongjia{
+	margin: 0px 0px 0px 50px;
+}
+
+.shopping_totalprices .shopping_totalprices_right{
+	width: 128px;
+	height: 60px;
+	background-color: #f60;
+	text-align: center;
+	line-height: 60px;
+	font-size: 26px;
+}*/
+
+
+.list_all .list_one{
+	color: #808080;
+	line-height: 60px;
+}
+.list_all .bor_font{
+	font-size: 18px;
+	
+	background-color: #f2f2f2;
+}
+.list_all .list_one li{
+	float: left;
+}
+.border_top{
+	border-top: 6px solid #dfdfdf;
+}
+.border_bottom_e6e6e6{
+	border-bottom: 1px solid #e6e6e6;
+}
+.w100{
+	width: 100px;
+}
+.w500{
+	width: 500px;
+}
+.w120{
+	width: 120px;
+}
+.w50{
+	width: 50px;
+}
+.w180{
+	width: 180px;
+}
+.w200{
+	width: 200px;
+}
+
+
+.text_center{
+	text-align: center;
+}
+
+.list_all .list_one .reduce,.list_all .list_one .plus{
+	width: 26px;
+	height: 26px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+}
+
+.list_all .list_one .num{
+	width: 70px;
+	height: 24px;
+	border: 0;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	outline: none;
+}
+
+.list_all .list_one .shop_img{
+	width: 160px;
+	height: 160px;
+	border: 1px solid #e6e6e6;
+	text-align: center;
+	line-height: 166px;
+	margin:20px 0px 20px 6px; 
+}
+.list_all .list_one .span1{
+	margin: 20px 0px 0px 28px;
+}
+
+/*结算样式*/
+.jiesuan_box ul{
+	width: 1070px;
+	height: 58px;
+	border: 1px solid #ccc;
+}
+.jiesuan_box .jiesuan{
+	width: 128px;
+	height: 60px;
+	background-color: #f60;
+	text-align: center;
+	line-height: 60px;
+	font-size: 26px;
+}
+
+.list_all .list_one .check_all,.list_all .list_one .check_one{
+	width: 18px;
+	height: 18px;
+	margin-top: 2px;
+}
+
+
+
+
+.ml26{
+	margin-left: 26px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*猜你喜欢样式*/
+.shopping_like .productTitle{
+	height: 46px;
+	border-bottom: 6px solid #FF6600;
+	margin-top: 37px;
+}
+
+.shopping_like .productTitle .prodictTitleCon{
+	width: 124px;
+	height: 46px;
+	text-align: center;
+	line-height: 46px;
+	color: #fff;
+	font-size: 24px;
+	background-color: #FF6600;
+}
+
+.productCon{
+	height: 304px;
+}
+
+.productConbox{
+	width: 210px;
+	height: 256px;
+	margin-right: 30px;
+}
+.shoplikecurrent{
+	width: 210px;
+	height: 256px;
+	margin-right: 30px;
+	background-color: #f2f2f2;
+}
+
+.productConbox .productImg{
+	width: 150px;
+	height: 150px;
+	margin: 5px 30px 0px 30px;
+}
+
+.productConbox span{
+	display: inline-block;
+}
+
+.productConbox .bookname{
+	width: 200px;
+	padding: 2px 0px 2px 10px;
+}
+
+.productConbox .del_hui{
+	padding-top:4px ;
+	text-decoration: line-through;
+	color: #c0c0c0;
+	
+}
+
+.productConbox .productConboxBto{
+	padding-left: 10px;
+	font-size: 24px;
+	width: 200px;
+	height: 30px;
+	color: red;
+	line-height: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

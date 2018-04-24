@@ -1,0 +1,454 @@
+#bookPage{
+	background-color: #f2f2f2;
+	height: 596px;
+}
+
+#bookPage #bookPageBox #booksPageTitle{
+	height: 26px;
+	padding: 18px 0px 10px 4px;
+	color: #646464;
+	line-height: 26px;
+}
+
+#bookPage #bookPageBox #booksPageTitle ul li{
+	float: left;
+	margin-right: 6px;
+	font-size: 16px;
+}
+
+#bookPage #bookPageBox #booksPageTitle ul li:nth-child(1){
+	font-size: 22px;
+}
+
+#booksPageCon{
+	height: 512px;
+	width: 1200px;
+	background-color: #fff;
+}
+
+#booksPageCon #booksPageConLeft{
+	width: 340px;
+	height: 490px;
+	margin: 14px 20px 0px 24px;
+}
+#booksPageCon #booksPageConLeft .fangdajing{
+	width: 340px;
+	height: 420px;
+}
+
+#booksPageCon #booksPageConLeft .commodity_number{
+	width: 340px;
+	height:60px;
+	text-align: center;
+	line-height: 84px;
+	}
+
+
+
+#booksPageConRight{
+	width: 790px;
+	height: 480px;
+	margin: 26px 26px 0px 0px;
+}
+
+#booksPageConRight p{
+	margin-bottom: 14px;
+}
+
+
+#booksPagePrice{
+	width: 790px;
+	height: 138px;
+	background-color: #f5f5f5;
+	color: #6c6c6c;
+}
+
+#booksPagePrice .booksPagePriceLeft{
+	width: 680px;
+	height: 88px;
+	margin: 12px 0px 0px 18px;
+}
+
+#booksPagePrice .booksPagePriceLeft .din38{
+	text-decoration: line-through;
+}
+
+
+
+
+#booksPagePrice .booksPagePriceLeft .font18{
+	font-size: 22px;
+}
+
+#booksPagePrice .booksPagePriceRight{
+	width: 78px;
+	height: 40px;
+	text-align: center;
+	border-left: 2px solid #d9d9d9;
+	margin: 8px 6px 0px 0px;
+}
+
+#booksPagePrice .booksPagePricebot{
+	margin-left:18px;
+}
+
+#booksPagePrice .booksPagePricebot .linjuan{
+	width: 88px;
+	height: 26px;
+	text-align: center;
+	line-height: 26px;
+	color: #fff;
+	margin-left: 14px;
+	background: url(../img/bgtiao.png) no-repeat 0 0;
+}
+
+#booksPageConRight .choose{
+	height: 34px;
+	margin: 18px 0px 54px 14px;
+	color: #4d4d4d;
+	line-height: 34px;
+}
+
+
+#booksPageConRight .choose ul li{
+	width: 98px;
+	height: 32px;
+	text-align: center;
+	line-height: 32px;
+	border: 1px solid #c9c9c9;
+	margin-left: 8px;
+	float: left;
+	cursor: pointer;
+}
+
+
+#booksPageConRight .choose .choose_current{
+	border: 1px solid #f60;
+	background: url(../img/gougou_03.jpg) no-repeat 84px 20px;
+}
+
+.joinCar{
+	width: 300px;
+	height: 60px;
+	margin: 0px 0px 24px 16px;
+}
+
+.joinCar .joinCarLeft{
+	height: 44px;
+	width: 66px;
+	margin: 8px 24px 0px 0px;
+}
+
+.joinCar .joinCarLeft .mun1{
+	width: 42px;
+	height: 42px;
+	text-align: center;
+	line-height: 42px;
+	border: 1px solid #d9d9d9;
+	border-right: none ;
+}
+
+.joinCar .joinCarLeft ul{
+	width: 22px;
+	height: 44px;
+}
+
+.joinCar .joinCarLeft ul li{
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	background-color: #e6e6e6;
+	border: 1px solid #d9d9d9;
+	font-size: 24px;
+	position: relative;
+}
+
+.joinCar .joinCarLeft ul li button{
+	width: 20px;
+	height: 20px;
+	border: none;
+	background-color: #e6e6e6;
+    line-height: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/*加入购物车样式*/
+.joinCarRight{
+	width: 190px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	background-color: #FF6600;
+	border-radius: 2px;
+}
+
+#booksPageConRight .tishi{
+	margin-top: 30px;
+	color: #808080;
+	margin-left:16px;
+}
+
+/*人气单品内容样式*/
+#productPeplo .productTitle{
+	height: 46px;
+	border-bottom: 6px solid #FF6600;
+	margin-top: 4px;
+}
+
+#productPeplo .productTitle .prodictTitleCon{
+	width: 124px;
+	height: 46px;
+	text-align: center;
+	line-height: 46px;
+	color: #fff;
+	font-size: 24px;
+	background-color: #FF6600;
+}
+
+.productCon{
+	height: 304px;
+}
+
+.productConbox{
+	width: 210px;
+	height: 256px;
+	margin-right: 30px;
+}
+.morencurrent{
+	width: 210px;
+	height: 256px;
+	margin-right: 30px;
+	background-color: #f2f2f2;
+}
+
+.productConbox .productImg{
+	width: 150px;
+	height: 150px;
+	margin: 5px 30px 0px 30px;
+}
+
+.productConbox span{
+	display: inline-block;
+}
+
+.productConbox .bookname{
+	width: 200px;
+	padding: 2px 0px 2px 10px;
+}
+
+.productConbox .del_hui{
+	padding-top:4px ;
+	text-decoration: line-through;
+	color: #c0c0c0;
+	
+}
+
+.productConbox .productConboxBto{
+	padding-left: 10px;
+	font-size: 24px;
+	width: 200px;
+	height: 30px;
+	color: red;
+	line-height: 22px;
+}
+
+/*推荐与评论样式*/
+#comment{
+	height: 3280px;
+	margin-bottom: 50px;
+}
+
+#commentLeft{
+	width: 316px;
+	height: 2174px;
+	border: 1px solid #e6e6e6;
+	margin-left: 14px;
+}
+
+#commentLeft .commentLeftTitle{
+	width: 306px;
+	height: 40px;
+	background-color: #f4f4f4;
+	line-height: 40px;
+	padding-left: 10px;
+}
+
+.lookBook{
+	width: 238px;
+	height: 282px;
+	border-bottom: 1px solid #e6e6e6;
+	margin: 22px 0px 0px 12px;
+	padding-left: 56px;
+}
+
+#commentRightTitle{
+	width: 856px;
+	height: 48px;
+	border-bottom: 6px solid #ff6700;
+	font-size: 24px;
+}
+
+#commentRightTitle ul li{
+	width:150px;
+	height: 48px;
+	float: left;
+	margin-right: 14px;
+	text-align: center;
+	line-height: 48px;
+	cursor: pointer;
+}
+
+#commentRightTitle .shopcurrent{
+	color: #fff;
+	background-color: #ff6700;
+}
+
+
+/*商品介绍内容样式*/
+#commentRight .commentRight_introduce{
+	width: 750px;
+	margin: 10px 0px 0px 62px;
+}
+
+#commentRight .commentRight_introduce .text_introduce{
+	height: 35px;
+	line-height: 35px;
+	font-size: 16px;
+	color: #4c4c4c;
+}
+
+
+
+/*评价内容样式*/
+#commentRight_evaluate{
+	width: 856px;
+}
+
+#comCon1{
+	height: 90px;
+	width: 824px;
+	margin: 40px 0px 42px 32px;
+}
+
+.comConLeft{
+	width: 105px;
+	height: 80px;
+	margin-right: 58px;
+}
+
+.comConCen{
+	width: 236px;
+	height: 100px;
+	margin-right: 32px;
+}
+
+.comConCen img{
+	width: 224px;
+	height: 17px;
+	margin-bottom:16px;
+}
+
+.comConRight{
+	width: 384px;
+	color: #666;
+}
+
+.comConRight ul li{
+	width: 152px;
+	float: left;
+	margin-right: 40px;
+	margin-bottom: 18px;
+}
+
+#comPinlun{
+	width: 856px;
+	background-color: #f5f5f5;
+}
+
+#comPinlun .pinlunTitle{
+	width: 500px;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 20px;
+}
+
+#comPinlun .pinlunTitle li{
+	float: left;
+	margin-right: 32px;
+}
+
+#comPinlun .pinlunTitle .commentCurrent{
+	color: #f8380c;
+}
+
+.dis_none{
+	display: none;
+}
+
+.pinlunCon{
+	width: 856px;
+	height: 144px;
+	border-bottom: 2px solid #f5f5f5;
+	color: #a6a6a6;
+}
+
+.pinlunCon .pinlunConLeft{
+	width: 130px;
+	height: 130px;
+	margin: 16px 24px 0px 16px;
+	color: #a6a6a6;
+}
+
+.pinlunCon .pinlunConLeft p{
+	margin: 6px 0px 0px 2px;
+}
+
+.pinlunCon .pinlunConCen{
+	height: 100px;
+	width: 470px;
+	margin-top: 16px;
+	margin-right: 64px;
+	color: #666;
+}
+
+.pinlunCon .pinlunConRight{
+	margin-top: 10px;
+}
+
+.commentlist{
+	width: 370px;
+	height: 32px;
+	margin-top: 26px;
+}
+
+.commentlist ul li{
+	width: 30px;
+	height: 30px;
+	border: 1px solid #e6e6e6;
+	text-align: center;
+	line-height: 30px;
+	background-color: #fafafa;
+	color: #999;
+	float: left;
+	margin-right: 8px;
+}
+
+#commentRight .listcurrent{
+	border: none;
+	color: red;
+	background-color: #fff;
+}
+
+#commentRight .none{
+	border: none;
+	background-color: #fff;
+}
+
+#commentRight .xia{
+	width: 64px;
+}
+
+

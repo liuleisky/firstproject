@@ -1,0 +1,153 @@
+/*订单详情样式*/
+#details{
+	height: 100px;
+}
+
+#details #detailsTitle{
+	height: 30px;
+	line-height: 30px;
+}
+
+#details #detailsTitle .fl{
+	font-size: 18px;
+	color: #666;
+	padding-left: 8px;
+}
+
+#details #detailsTitle .fr{
+	font-size: 16px;
+	color: #1181e8;
+	text-decoration: underline;
+	padding-right: 8px;
+	color:#1181e8;
+}
+
+#detailsCon{
+	height: 60px;
+	background-color: #f2f2f2;
+	line-height: 60px;
+	font-size: 18px;
+	color: #4d4d4d;
+}
+
+#detailsCon .detailsConLeft{
+	padding-left: 8px;
+}
+
+#detailsCon .detailsConRight{
+	padding-right: 86px;
+}
+
+
+/*乐购支付样式*/
+.lgzfTitle{
+	height: 40px;
+	margin-bottom: 10px;
+}
+
+.lgzfTitle .lgzfTitle1{
+	width: 150px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;;
+	background-color: #FF6700; 
+	color: #fff;
+	font-size: 22px;
+}
+
+.lgzfTitle .lgzfTitle1-1{
+	width: 150px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;;
+	background-color: #76b0f5; 
+	color: #fff;
+	font-size: 22px;
+}
+
+.lgzfTitle .lgzfTitle2{
+	width:500px;
+	height: 40px;
+	line-height: 40px;;
+	color: #bfbfbf;
+	font-size: 18px;
+	margin-left: 10px;
+}
+
+/*添加银行卡样式*/
+.addCard{
+	height: 94px;
+	line-height: 94px;
+	background-color: #f2f2f2;
+	color: #4d4d4d;
+	font-size: 18px;
+}
+
+.addCard .addCard1{
+	height: 34px;
+	width: 125px;
+	text-align: center;
+	line-height: 34px;
+	margin: 28px 28px 0px 64px;
+	background:url(../img/logochose.png) no-repeat 0 0;
+}
+
+.addCard .addCard2{
+	height: 32px;
+	width: 346px;
+	line-height: 32px;
+	border: 1px solid #bfbfbf;
+	margin: 28px 28px 0px 0px;
+}
+
+.addCard .addCard2 p{
+	margin-left: 18px;
+}
+
+.addCard .addCard2 p .colorOrg{
+	margin: 0px 38px 0px 54px;
+}
+
+.addCard .addCard3{
+	width: 120px;
+	height: 30px;
+	background-color: #999;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+	margin-top:30px ;
+	cursor: pointer;
+}
+
+.addCard .addCard4{
+	margin-right: 20px;
+}
+
+.lgzfbon{
+	width: 228px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	background-color:#ff6700;
+	color: #fff;
+	font-size: 24px;
+	margin-top: 12px;
+}
+
+/*其他支付样式*/
+#otherZf .otherCon{
+	height: 94px;
+	color: #898989;
+	background-color: #f2f2f2;
+	line-height: 94px;
+	font-size: 16px;
+	margin-bottom: 40px;
+}
+
+#otherZf .otherCon p{
+	margin-left: 72px;
+}
+
+
+
+

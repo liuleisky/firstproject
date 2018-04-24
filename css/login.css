@@ -1,0 +1,189 @@
+.login{
+	height: 500px;
+	margin-bottom: 30px;
+	background: url(../img/loginbanner.png) no-repeat -284px 0px;
+}
+
+.login .content .login_m{
+	width: 350px;
+	height: 370px;
+	margin-left: 750px;
+	padding-top: 64px;
+}
+
+.login .content .login_m .login_box{
+	width: 350px;
+	height: 370px;
+	background-color: #fff;	
+}
+
+.login .content .login_m .login_box .login_title{
+	width: 350px;
+	height: 55px;
+	border-bottom: 1px solid #f6f6f6;
+}
+
+.login .content .login_m .login_box .login_title ul{
+	margin-left: 10px;
+
+}
+
+.login .content .login_m .login_box .login_title ul li{
+	width: 90px;
+	height: 24px;
+	padding: 0px 40px 0px 38px;
+	float: left;
+	font-size: 22px;
+	margin-top: 18px;
+	font-family: "黑体";
+	border-right: 1px solid #f6f6f6;
+	cursor: pointer;
+}
+
+.login .content .login_m .login_box .login_title ul .xian{
+	border: none;
+}
+
+.login .content .login_m .login_box .login_title ul .current{
+	color: #f60;
+}
+/*登录界面*/
+/*用户名和密码框*/
+.login .content .login_m .login_box form{
+	width: 290px;
+	margin:40px 30px 0px 30px;
+}
+
+.login .content .login_m .login_box form input{
+	width: 288px;
+	height: 38px;
+	border: 1px solid #bfbfbf;
+	margin-bottom: 16px;
+}
+
+.login_all{
+	position: relative;
+}
+
+#myform p{
+	position: relative;
+}
+
+#myform p span{
+	width: 38px;
+	height: 38px;
+	
+	position: absolute;
+	top: -1px;
+	left: 1px;
+	
+	text-align: center;
+	line-height: 38px;
+}
+
+#myform p #delIcon{
+	cursor: pointer;
+}
+
+
+
+#myform #username,#myform #pwd{
+	text-indent: 44px;
+	font-size: 22px;
+	font-family:"黑体" ;
+}
+
+#myform p #delIcon{
+	/*display: none;*/
+	position: absolute;
+	top: 12px;
+	right: 10px;
+	cursor: pointer;
+}
+
+.login .content .login_m .login_box .login_zidong{
+	height: 14px;
+	width: 290px;
+	line-height: 14px;
+	margin:0px 30px 0px 30px;
+	font-size: 14px;
+	font-family: "黑体";
+	position:absolute;
+	top: 108px;
+	left: 0;
+}
+
+.login .content .login_m .login_box .login_zidong #check{
+	margin: 2px 6px 0 8px;
+}
+
+.login .content .login_m .login_box #btn{
+	width: 290px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	border: none;
+	color: #fff;
+	background-color: #f60;
+	outline: none;
+	margin: 40px 0px 28px 0px;
+	font-size: 24px;
+	font-family: "黑体";
+	letter-spacing: 20px;
+}
+
+.login .content .login_m .login_box .login_RegNow{
+	width: 350px;
+	height: 50px;
+	border-top: 2px solid #e6e6e6;
+	text-align: center;
+	line-height: 50px;
+}
+
+.login .content .login_m .login_box .login_RegNow img{
+	margin:-4px 6px 0 0;
+}
+
+
+/*扫一扫界面*/
+.login .content .login_m .login_box .login_erweima{
+	width: 318px;
+	height: 216px;
+	margin:54px 0px 0px 30px ;
+}
+.login .content .login_m .login_box .login_erweima ul{
+	width: 318px;
+	height: 168px;
+}
+.login .content .login_m .login_box .login_erweima ul li{
+	float: left;
+}
+
+/*扫一扫二维码页面*/
+.dis_none{
+	display: none;
+}
+
+.tab_box .code_login{
+	margin: 63px 0 0 30px;
+}
+#code_login{
+	width: 320px;
+	height: 170px;
+}
+
+.tab_box .code_login ul li img{
+	margin-right: 15px;
+}
+
+.eqCodeShow{
+	position: relative;
+	top: 16px;
+	left: 72px;
+}
+.tab_box .btoinf{
+	margin-left:62px;
+}
+
+
+

@@ -1,0 +1,231 @@
+/*订单信息*/
+#dindanIn{
+	height: 280px;
+	font-size: 16px;
+}
+
+#dindanIn p{
+	font-size: 20px;
+}
+
+#dindanIn .p, #buyTitle,#sendInTitle .p{
+	height: 60px;
+	line-height: 60px;
+	font-size: 18px;
+	background-color: #f2f2f2;
+	padding: 0 14px;
+}
+
+#dindanIn .addressCon{
+	height: 192px;
+	padding:20px 42px;
+}
+
+.addConBox1{
+	width: 125px;
+	height: 34px;
+	text-align: center;
+	line-height: 34px;
+	background: url(../img/logochose.png)no-repeat 0 0;
+}
+
+.addConBox2{
+	width: 328px;
+	height: 34px;
+	text-align: center;
+	line-height: 34px;
+	margin: 0 136px 20px 34px;
+}
+
+.addConBox3{
+	width:120px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+	background-color: #999;
+}
+
+.morea1{
+	font-style: 16px;
+	margin: 24px 0px 18px 0px;
+}
+
+.addbox1 {
+	width: 123px;
+	height: 32px;
+	text-align: center;
+	line-height: 32px;
+	border: 1px solid #e6e6e6;
+}
+
+.addbox2 {
+	width: 328px;
+	height: 34px;
+	text-align: center;
+	line-height: 34px;
+	margin: 0 136px 20px 34px;
+}
+
+/*支付方式*/
+#buyCon{
+	padding-left: 44px;
+}
+
+#buy #buyCon ul li:nth-child(1){
+	width: 125px;
+	height: 34px;
+	text-align: center;
+	border: none;
+	line-height: 34px;
+	background: url(../img/logochose.png)no-repeat 0 0;
+	float: left;
+	margin:20px 18px 50px 0;
+}
+
+
+#buy #buyCon ul li{
+	width: 123px;
+	height: 32px;
+	text-align: center;
+	line-height: 32px;
+	border: 1px solid #e6e6e6;
+	float: left;
+	margin:20px 18px 50px 0;
+}
+
+#buy #buyCon ul li:nth-child(5){
+	width: 125px;
+	height: 34px;
+	text-align: center;
+	line-height: 34px;
+	border: none;
+	float: left;
+	margin:20px 18px 50px 0;
+}
+
+/*发送清单样式*/
+#sendInCon .sendInConLeft{
+	width: 434px;
+	height: 266px;
+	padding: 6px 20px 0px 18px;
+}
+
+#sendInCon .sendInConLeft .sendBox{
+	width: 125px;
+	height: 34px;
+	text-align: center;
+	line-height: 34px;
+	background: url(../img/logochose.png)no-repeat 0 0;
+	margin:16px 0px 44px 26px;
+}
+
+.sendtext{
+	margin-bottom: 18px;
+}
+
+#sendIn .sendInConRight{
+	width: 728px;
+	height: 253px;
+	background-color: #f2f2f2;
+	margin: 11px 0px;
+}
+
+#sendIn .sendInConRight #sendBook{
+	width: 110px;
+	height: 110px;
+	margin: 12px 52px 0px 22px;
+}
+
+#sendIn .sendInConRight #sendBook img{
+	width: 110px;
+	height: 110px;
+}
+
+#sendrRightText{
+	width: 500px;
+	height: 126px;
+	font-size: 16px;
+	line-height: 126px;
+}
+
+#sendrRightText .colorRed{
+	margin: 0 56px 0 90px;
+}
+
+#sendrRightText .youhuo{
+	margin-left: 98px;
+}
+
+/*发票信息样式*/
+#fapiao{
+	height: 278px;
+	border-top: 2px solid #e6e6e6;
+}
+
+#fapiao .fpxi{
+	margin: 18px 0px 20px 16px;
+}
+
+#fapiao #fapiao1{
+	margin: 0px 0px 34px 16px;
+}
+
+#shopPrice{
+	width: 1198px;
+	height: 58px;
+	border: 1px solid #ccc;
+	line-height: 58px;
+	font-size: 16px;
+	color: #999;
+}
+
+#shopPrice span{
+	font-weight: bold;
+	font-size: 18px;
+	color: #ff6600;
+}
+
+#shopPrice .shoptextPrice1{
+	margin: 0px 80px 0px 18px;
+}
+
+#shopPrice .shoptextPrice3{
+	margin-left: 80px;
+}
+
+
+
+#shopPrice .shoptextPrice4{
+	font-size: 18px;
+	margin-right: 64px;
+	color: #000;
+}
+
+
+#fapiaoBto{
+	height: 60px;
+}
+
+#fapiaoBto #fapiaoBtoLeft{
+	margin: 18px 0px 0px 16px;
+}
+
+#addresshome{
+	width: 346px;
+	margin-right: 30px;
+}
+
+#phone{
+	width: 128px;
+}
+
+#fapiaoBto #tijiaodindan{
+	height: 60px;
+	width: 140px;
+	line-height: 60px;
+	text-align: center;
+	font-size: 24px;
+	color: #fff;
+	background-color: #ff6700;
+}

@@ -1,0 +1,334 @@
+.content{
+	font-family: "黑体";
+}
+/*banner广告和热卖畅销样式*/
+.banner_hot .banner{
+	width: 1000px;
+	height: 430px;
+}
+
+.banner_hot .hot{
+	width: 200px;
+	height: 430px;
+}
+
+
+/*主编推荐样式*/
+.hot .ebook_right{
+    width: 196px;
+    height: 426px;
+    border: 2px solid #ccc;
+}
+.hot .ebook_right h2{
+	font-weight: normal;
+	text-align: center;
+}
+.hot .ebook_right ul{
+	line-height: 18px;
+	text-indent: 8px;
+}
+.hot .ebook_right .default_title .default_text{
+	width: 170px;
+	height: 30px;
+	border-bottom: 2px solid #e6e6e6;
+}
+.hot .ebook_right .default_title .default_text1{
+	width: 170px;
+	height: 30px;
+}
+
+.hot .ebook_right .hot_content span{
+	display: inline-block;
+}
+.hot .ebook_right .hot_content .hot_one{
+	width: 190px;
+	height: 120px;
+	font-size: 12px;
+	border-bottom: 2px solid #e6e6e6;
+}
+
+.hot .ebook_right .hot_content .hot_one img{
+	width: 120px;
+	height: 120px;
+}
+
+
+.hot .ebook_right .hot_content .hot_one1{
+	width: 200px;
+	height: 150px;
+	font-size: 12px;
+}
+
+.dis_none{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*人气单品内容样式*/
+#productPeplo .productTitle{
+	height: 46px;
+	border-bottom: 6px solid #FF6600;
+	margin-top: 4px;
+}
+
+#productPeplo .productTitle .prodictTitleCon{
+	width: 220px;
+	height: 46px;
+	text-align: center;
+	line-height: 46px;
+	color: #fff;
+	background-color: #FF6600;
+}
+
+.productCon{
+	height: 520px;
+}
+
+.productConbox{
+	width: 210px;
+	height: 256px;
+	margin-right: 30px;
+}
+.morencurrent{
+	width: 210px;
+	height: 256px;
+	margin-right: 30px;
+	background-color: #f2f2f2;
+}
+
+.productConbox .productImg{
+	width: 150px;
+	height: 150px;
+	margin: 5px 30px 0px 30px;
+}
+
+.productConbox span{
+	display: inline-block;
+}
+
+.productConbox .bookname{
+	width: 200px;
+	padding: 2px 0px 2px 10px;
+}
+
+.productConbox .del_hui{
+	padding-top:4px ;
+	text-decoration: line-through;
+	color: #c0c0c0;
+	
+}
+
+.productConbox .productConboxBto{
+	padding-left: 10px;
+	font-size: 24px;
+	width: 200px;
+	height: 30px;
+	color: red;
+	line-height: 22px;
+}
+
+/*公共标题样式*/
+.common_title{
+	height: 44px;
+	border-bottom: 6px solid #f60;
+	/*line-height: 54px;*/
+}
+.common_title p{
+	padding-top: 6px;
+}
+
+.common_title span{
+	display: inline-block;
+	width: 42px;
+	height: 38px;
+	background-color: #FF6600;
+	text-align: center;
+	line-height: 38px;
+}
+
+
+/*新书上架样式*/
+.newbooks .newbooks_left{
+	width: 904px;
+}
+
+.newbooks .newbooks_left .newbooks_left_con{
+	width: 900px;
+	height: 496px;
+	border: 2px solid #e6e6e6;
+	border-top: none;
+}
+
+.line_though{
+	text-decoration: line-through;
+}
+
+/*公共图书样式*/
+.common_con{
+	width: 180px;
+	height: 248px;
+}
+.common_con img{
+	margin: 14px 15px 0px 15px;
+}
+
+.common_con p{
+	margin: 4px 0px 6px 18px;
+}
+
+
+/*主编推荐样式*/
+.newbooks .ebook_right{
+    width: 280px;
+    height: 500px;
+    margin-top: 74px;
+    border: 2px solid #ccc;
+    margin-left: 8px;
+}
+.newbooks .ebook_right h2{
+	font-weight: normal;
+	text-align: center;
+}
+.newbooks .ebook_right ul{
+	line-height: 18px;
+	text-indent: 8px;
+}
+.newbooks .ebook_right .default_title .default_text{
+	width: 256px;
+	height: 32px;
+	border-bottom: 2px solid #e6e6e6;
+}
+.newbooks .ebook_right .default_title .default_text1{
+	width: 256px;
+	height: 33px;
+}
+
+.newbooks .ebook_right .hot_content span{
+	display: inline-block;
+}
+.newbooks .ebook_right .hot_content .hot_one{
+	width: 256px;
+	height: 150px;
+	font-size: 12px;
+	border-bottom: 2px solid #e6e6e6;
+}
+.newbooks .ebook_right .hot_content .hot_one1{
+	width: 256px;
+	height: 150px;
+	font-size: 12px;
+}
+
+.dis_none{
+	display: none;
+}
+
+
+/*独家提供样式*/
+.offer .common_title ul li{
+	float: left;
+	width: 98px;
+	height: 34px;
+	text-align: center;
+	line-height: 34px;
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+.offercurrent{
+	color: #fff;
+	background-color: #f60;
+}
+
+.offer_con{
+	height: 532px;
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.offer_con .img{
+	width: 36px;
+	height: 70px;
+	margin-top: 220px;
+}
+
+.offer_con .offer_con_cen{
+	height: 500px;
+	width: 1100px;
+}
+
+.offer_con .offer_con_cen .common_con{
+	margin-right: 3px;
+}
+.offer_con ul{
+	margin-left: 496px;
+}
+
+.offer_con ul li{
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background-color: #cdcdcd;
+	float: left;
+}
+
+
+/*猜你喜欢样式*/
+.guess_like .guess_like_con{
+	width: 1200px;
+	height: 496px;
+	border-bottom: 1px solid #e6e6e6;;
+}
+
+
+.guess_like .common_con{
+	margin:0px 10px 0px 10px; 
+}
+
+
+/*人文社科样式*/
+.humanities .humanities_box{
+	width: 200px;
+	height: 100px;
+	margin: 40px 0px 24px 0px;
+}
+
+.humanities .humanities_box .humanities_box_text .radius{
+	width: 100px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	background-color: #ff311c;
+	border-radius:10px;
+	font-size: 16px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

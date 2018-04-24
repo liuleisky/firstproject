@@ -1,0 +1,58 @@
+.x1{
+	border-bottom: 1px solid #e6e6e6;
+}
+
+.one_common{
+	border: 1px solid #d9d9d9;
+	width: 400px;
+	height: 44px;
+	line-height: 44px;
+	
+}
+.one_common span{
+	color: #666;
+	font-size: 22px;
+	display: inline-block;
+	width: 130px;
+	height: 44px;
+	text-indent: 10px;
+}
+.one_common input{
+	border: 0;
+	width: 270px;
+	height: 44px;
+	outline: none;
+	font-size: 16px;
+}
+
+.one_common .verification_code{
+	width: 138px;
+}
+
+.one_common p{
+	width: 126px;
+	height: 36px;
+	margin:3px;
+	text-align: center;
+	line-height: 36px;
+}
+
+.one_common .com_v{
+	background-color: #1a83e5;
+}
+
+.one_common .pho_v{
+	background-color:#e6e6e6;
+}
+
+.btn{
+	width: 400px;
+	height: 44px;
+	background-color: #f60;
+	font-size: 28px;
+	border: none;
+	margin-bottom: 38px;
+}
+
+
+

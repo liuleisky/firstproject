@@ -1,0 +1,121 @@
+/*头部样式*/
+.head{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	background-color: #333;
+}
+
+.head .legochina{
+	margin-left: 202px;
+}
+
+
+/*搜索框*/
+.search{
+margin-top: 6px;	
+}
+
+.search form{
+	margin-right: 40px;
+}
+
+.search .search_box{
+	width: 388px;
+	height: 36px;
+	border: 2px solid #f60;
+	outline: none;
+	text-indent: 8px;
+	font-size: 16px;
+}
+/*搜索框提交按钮*/
+.search .search_submit{
+	width: 50px;
+	height: 40px;
+	border: none;
+	background: url(../img/bgicon.png) no-repeat #f60;
+}
+
+.search .shopcar_order li a{
+	width: 100px;
+	height: 40px;
+	display: inline-block;
+	line-height: 40px;
+}
+
+/*购物车*/
+.search .shopcar_order .shopcar a{
+	text-indent: 36px;
+	background: url(../img/bgicon.png) no-repeat 0px -42px #f60;
+}
+/*我的订单*/
+.search .shopcar_order .order a{
+	text-align: center;
+	background-color: #EBEBEB;
+	height: 38px;
+	border: 1px solid #ccc;
+}
+
+/*导航栏*/
+.nav{
+	height: 24px;
+	margin-top: 30px;
+}
+
+.nav .logo{
+	width: 200px;
+	height: 22px;
+	position: relative;
+}
+
+.nav .logo img{
+	position: absolute;
+	top: -106px;
+	left: 0px;
+}
+
+.nav .main_nav ul li{
+	float: left;
+	margin-left: 36px;
+	font-size: 16px;
+}
+
+.nav .main_nav ul li a{
+	color: #323232;
+	font-weight: bold;
+	font-family: "黑体";
+}
+
+/*公共头部样式*/
+
+.head .head_text{
+	margin-left: 260px;
+}
+.head_bg{
+	position: relative;
+	height: 75px;
+}
+.logo_bg {
+	position: absolute;
+	width: 258px;
+	height: 105px;
+	top: -30px;
+	left: 0px;
+	background: url(../img/otherLogo.gif) no-repeat;
+}
+.logo_bg li{
+	color: #fff;
+	font-size: 30px;
+	margin: 40px 0 0 131px;
+}
+.head_bg .welcome{
+	font-size: 28px;
+	color: #999;
+	line-height: 70px;
+	margin-left: 270px;
+}
+
+.zhanghao{
+	margin: 40px 30px 0px 0px;
+}
+

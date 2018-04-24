@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登陆</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/header1.css"/>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+		<link rel="stylesheet" type="text/css" href="css/footer.css"/>
+		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/login.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.validate.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/messages_cn.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--头部-->
+		<div class="header">
+			<!--页头-->
+			<div class="head boxAuto">
+				<div class="content clear">
+					<p class="fl font18 e5e5e5 ht legochina">legochina.cn</p>
+					<p class="fr font12 e5e5e5 m_r10">欢迎光临<a class="f60" href="index.html">乐购</a>  请<a href="#" class="e5e5e5">登陆</a> \<a class="f60" href="#">注册</a></p>
+				</div>
+			</div>
+			<div class="content">
+				<div class="nav clear">
+					<div class="logo fl">
+						<a href="#"><img src="img/loginlogo_02.jpg"/></a>
+					</div>
+					<div class="header_text ht font30 fl">
+						欢迎登陆
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--内容-->
+		<div class="login">
+			<div class="content">
+				<div class="login_m">
+					<!--登陆-->
+					<div class="login_box">
+						<div class="login_title">
+							<ul id="login_tab" class="clear">
+								<li>扫码登陆</li>
+								<li class="xian current">账户登陆</li>
+							</ul>
+						</div>
+						<div class="tab_box">
+							<!--二维码扫一扫页面-->
+							<div class="code_login login1 dis_none">
+								<ul id="code_login">
+									<li class="clear">
+										<img class="fl eqCodeShow" src="img/eqCodeShow.png"/>
+										<img class="fl dis_none" src="img/phone.png"/>
+									</li>
+								</ul>
+							<p class="btoinf c666 ht font14 m_t30">打开手机版 乐购APP 扫一扫</p>
+						</div>
+							<!--账号密码登录页-->
+							<div class="login_all login1">
+								<form id="myform">
+								<p>
+									<input type="text" name="username" id="username" value="会员名/邮箱" />
+									<span><img src="img/username.png" /></span>
+									<img src="img/del.png" id="delIcon" class="dis_none"/>
+								</p>
+								<p>
+									<input type="password" name="pwd" id="pwd"/>
+									<span><img src="img/pwd.png" /></span>
+								</p>
+								<input type="submit" name="btn" id="btn" value="登陆" />
+								</form>
+								<div class="login_zidong">
+									<input class="m_r4 fl" type="checkbox" name="check" id="check" /><span class="fl"><a href="#">自动登陆</a></span>
+									<span class="fr"><a href="#">忘记密码</a></span>
+								</div>
+								<p class="login_RegNow"><a class="f60 font20 ht" href="register.html"><img src="img/zhuce.png"/>立即注册</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--底部-->
+		<div class="footer">
+			<div id="footer_Con" class="content">
+				<!--底部信息简介-->
+				<div id="footerBto">
+					<ul class="clear">
+						<li><a href="#">公司简介</a></li>
+						<li><a href="#">Inverstor  Relations</a></li>
+						<li><a href="#">网站联盟</a></li>
+						<li><a href="#">乐购招商</a></li>
+						<li><a href="#">机构销售</a></li>
+						<li><a href="#">手机乐购</a></li>
+						<li><a href="#">官方Blog</a></li>
+						<li class="notborder"><a href="#">热词搜索</a></li>
+					</ul>
+					<p>Copyright&nbsp;(C)&nbsp;乐购网 &nbsp;2004-2016.  ALL  Rights  Reserved</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

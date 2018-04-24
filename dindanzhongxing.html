@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>订单中心</title>
+		<!--引入公共样式-->
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<!--引入重置样式-->
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<!--引入头部样式-->
+		<link rel="stylesheet" type="text/css" href="css/header.css"/>
+		<!--引入底部样式-->
+		<link rel="stylesheet" type="text/css" href="css/footer.css"/>
+		<!--引入订单中心页面样式-->
+		<link rel="stylesheet" type="text/css" href="css/dindanzhongxing.css"/>
+		<!--引入Jquery库-->
+		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<!--引入搜索样式-->
+		<script src="js/search.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--头部-->
+		<div class="header">
+			<!--.head 拉通的浏览器的宽度-->
+			<div class="head">
+				<div class="content clear">
+					<p class="fl e5e5e5 font18 ht legochina head_text">legochina.cn</p>
+					<p class="fr font12 e5e5e5 m_r10">欢迎光临<a class="f60" href="index.html">乐购</a>,请&nbsp;<a href="login.html" class="e5e5e5">登录</a>\<a href="#" class="f60">注册</a></p>
+				</div>
+			</div>
+			<div class="content head_bg clear">
+				<ul class="logo_bg">
+					<li>结算中心</li>
+				</ul>
+				<div class="search">
+					<form class="clear fr" id="search_form">
+						<input class="fl search_box" type="text" id="keySearch" value="创意文具"/>
+						<input class="fl search_submit" type="submit" id="btn" value=""/>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!--内容-->
+		<div class="content ht">
+			<!--订单信息-->
+			<div id="dindanIn" class="m_t20">
+				<p>填写并核对订单信息</p>
+				<div class="p1">
+					<p class="p c333">收货人信息<span class="blue fr">新增收货地址</span></p>
+				</div>
+				<div class="addressCon">
+					<div class="dindanAddress clear">
+						<div class="addConBox1 fl c333">
+							运送&nbsp;&nbsp;四川
+						</div>
+						<div class="addConBox2 fl c333">
+							成都市  &emsp;高新区  &emsp;天府新谷11号楼1101
+						</div>
+						<div class="addConBox3 fl">
+							默认收货地址
+						</div>
+					</div>
+					<div class="moreAddress">
+						<div class="morea1 c333">更多收货地址：</div>
+						<div class="address1 clear">
+							<div class="addbox1 c333 fl">
+								运送&nbsp;&nbsp;四川
+							</div>
+							<div class="addbox2 c333 fl">
+								成都市  &emsp;高新区  &emsp;天府新谷11号楼1101
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			<!--支付方式-->
+			<div id="buy" >
+				<div id="buyTitle" class="c333">
+					支付方式
+				</div>
+				<div id="buyCon">
+					<ul class="clear c333">
+						<li class="buycurrent"><a href="#">货到付款</a></li>
+						<li><a href="#">微信支付</a></li>
+						<li><a href="#">信用卡</a></li>
+						<li><a href="#">银行卡</a></li>
+						<li><a href="#">更多>></a></li>
+					</ul>
+				</div>
+			</div>
+			<!--发送清单-->
+			<div id="sendIn">
+				<div id="sendInTitle">
+					<p class="p c333">送货清单<span class="blue fr">价格说明&emsp;&emsp;&emsp;&emsp;返回购物车修改</span></p>
+				</div>
+				<div id="sendInCon" class="clear">
+					<div class="sendInConLeft fl">
+						<div class="morea1 font16 c333">配送方式：</div>
+						<div class="sendBox font16 c333">
+							顺丰快递
+						</div>
+						<div class="sendtext font16 c333">
+							<span class="b2b2b2 fl">付款方式：</span>现金<span class="blue fr">修改</span>
+						</div>
+						<div class="sendtext font16">
+							<span class="b2b2b2 fl">配送时间：</span>预计8月30日12:00-16:00送达<span class="blue fr">修改</span>
+						</div>
+					</div>
+					<div class="sendInConRight fr clear">
+						<div id="sendBook" class="fl">
+							<img src="img/demobook1.jpg"/>
+						</div>
+						<div id="sendrRightText" class="fl" >
+							从你的全世界路过<span class="colorRed f4290d font20">41.00</span>1 <span class="youhuo font18">有货</span> 
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--发票信息-->
+			<div id="fapiao">
+				<div class="fpxi font18 c333">
+					发票信息:
+				</div>
+				<div id="fapiao1" class="font18 b2b2b2">
+					<span class="colorQianHui fl">普通发票（电子）&emsp;&emsp;个人&emsp;明细&emsp;</span><span class="blue">修改</span>
+				</div>
+				<div id="shopPrice" class="clear">
+					<div class="shoptextPrice1 fl">
+						<span>1  </span>件商品
+					</div>
+					<div class="shoptextPrice2 fl">
+						总商品金额: <span>41.00</span>
+					</div>
+					<div class="shoptextPrice3 fl">
+						  运费：<span>6.00</span>
+					</div>
+					<div class="shoptextPrice4 fr">
+						 应付总额:  <span>47.00</span>
+					</div>
+				</div>
+				<div id="fapiaoBto" class="clear">
+					<div id="fapiaoBtoLeft"class="fl">
+						<span class="font14 c333">配送至</span> <input type="text" name="addresshome" id="addresshome" value="成都高新区三环内天府新谷11号1101" />
+						<span class="font14 c333">收货人</span> <input type="text" name="phone" id="phone" value="136******88" />
+					</div>
+					<div id="tijiaodindan" class="fr">
+						<a href="shoppingcart.html" class="fff">提交订单</a>
+					</div>
+				</div>
+			</div>
+			<!--广告图-->
+			<div id="mosoureImg">
+				<a href="#"><img src="img/bannermosou.png"/></a>
+			</div>
+		</div>
+		<!--底部-->
+		<div class="footer">
+			<div id="footer_auto">
+				<div id="footer_autoCen" class="content clear">
+					<div class="bc1 fl"><a href="#"> </a></div>
+					<div class="bc2 fl"><a href="#"> </a></div>
+					<div class="bc3 fl"><a href="#"> </a></div>
+					<div class="bc4 fl"><a href="#"> </a></div>
+				</div>
+			</div>
+			<div id="footer_Con" class="content">
+				<!--底部信息中间部分-->
+				<div id="footer_Con_top" class="clear">
+					<div id="footer_Con_top_Left" class="fl clear">
+						<!--第1列信息-->
+						<div class="footer_Information fl">
+							<ul>
+								<li class="weight"><a class="font18 ht c000" href="#">购物指南</a></li>
+								<li><a class="b2b2b2" href="#">购物流程</a></li>
+								<li><a class="b2b2b2" href="#">发票制度</a></li>
+								<li><a class="b2b2b2" href="#">账户管理</a></li>
+								<li><a class="b2b2b2" href="#">会员优惠</a></li>
+							</ul>
+						</div>
+						<!--第2列信息-->
+						<div class="footer_Information fl">
+							<ul>
+								<li class="weight"><a class="font18 ht c000" href="#">支付方式</a></li>
+								<li><a class="b2b2b2" href="#">货到付款</a></li>
+								<li><a class="b2b2b2" href="#">网上支付</a></li>
+								<li><a class="b2b2b2" href="#">礼品卡支付</a></li>
+								<li><a class="b2b2b2" href="#">银行转账</a></li>
+							</ul>
+						</div>
+						<!--第3列信息-->
+						<div class="footer_Information fl">
+							<ul>
+								<li class="weight"><a class="font18 ht c000" href="#">订单服务</a></li>
+								<li><a class="b2b2b2" href="#">订单配送查询</a></li>
+								<li><a class="b2b2b2" href="#">订单状态说明</a></li>
+								<li><a class="b2b2b2" href="#">自助取消订单</a></li>
+								<li><a class="b2b2b2" href="#">自助修改订单</a></li>
+							</ul>
+						</div>
+						<!--第4列信息-->
+						<div class="footer_Information fl">
+							<ul>
+								<li class="weight"><a class="font18 ht c000" href="#">退换货</a></li>
+								<li><a class="b2b2b2" href="#">退换货政策</a></li>
+								<li><a class="b2b2b2" href="#">自助申请退换货</a></li>
+								<li><a class="b2b2b2" href="#">退换货进度查询</a></li>
+								<li><a class="b2b2b2" href="#">退款方式和时间</a></li>
+							</ul>
+						</div>
+						<!--第5列信息-->
+						<div class="footer_Information fl">
+							<ul>
+								<li class="weight"><a class="font18 ht c000" href="#">商家服务</a></li>
+								<li><a class="b2b2b2" href="#">商家中心</a></li>
+								<li><a class="b2b2b2" href="#">运营服务</a></li>
+								<li><a class="b2b2b2" href="#">加入尾品汇</a></li>
+							</ul>
+						</div>
+					</div>
+					<div id="footer_Con_top_Right" class="fr">
+						<a href="#"><img src="img/logo_00.png"/></a>
+					</div>
+				</div>
+				<!--底部信息简介-->
+				<div id="footerBto">
+					<ul class="clear">
+						<li><a href="#">公司简介</a></li>
+						<li><a href="#">Inverstor  Relations</a></li>
+						<li><a href="#">网站联盟</a></li>
+						<li><a href="#">乐购招商</a></li>
+						<li><a href="#">机构销售</a></li>
+						<li><a href="#">手机乐购</a></li>
+						<li><a href="#">官方Blog</a></li>
+						<li class="notborder"><a href="#">热词搜索</a></li>
+					</ul>
+					<p>Copyright&nbsp;(C)&nbsp;乐购网 &nbsp;2004-2016.  ALL  Rights  Reserved</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>产品列表</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/header2.css"/>
+		<link rel="stylesheet" type="text/css" href="css/productList.css"/>
+		<link rel="stylesheet" type="text/css" href="css/footer.css"/>
+		<link rel="stylesheet" type="text/css" href="css/slide.css"/>
+		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/tyslide.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/productList.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/search.js" type="text/javascript" charset="utf-8"></script>
+		
+	</head>
+	<body>
+		<!--头部-->
+		<div class="header">
+			<!--页头-->
+			<div class="head boxAuto">
+				<div class="content clear">
+					<p class="fl font18 e5e5e5 ht legochina">legochina.cn</p>
+					<p class="fr font12 e5e5e5 m_r10">欢迎光临<a class="f60" href="index.html">乐购</a>  请<a href="login.html" class="e5e5e5">登陆</a> \<a class="f60" href="#">注册</a></p>
+				</div>
+			</div>
+			<div class="content">
+				<div class="search clear m_r10">
+					<ul class="fr clear font14 shopcar_order">
+						<li class="fl shopcar"><a class="fff" href="shoppingcart.html">购物车&nbsp;3</a></li>
+						<li class="fl order "><a class="font16 c808080" href="dindanzhongxing.html">我的订单</a></li>
+					</ul>
+					<form class="clear fr" id="search_form">
+						<input class="fl search_box" type="text" id="keySearch" value="创意文具"/>
+						<input class="fl search_submit" type="submit" id="btn" value=""/>
+					</form>
+					
+				</div>
+				<div class="nav clear">
+					<div class="logo fl">
+						<a href="#"><img src="img/bgchengping.png"/></a>
+					</div>
+					<div class="main_nav fl">
+						<ul class="clear">
+							<li><a href="#">图书</a></li>
+							<li><a href="#">电子书</a></li>
+							<li><a href="#">原创文学</a></li>
+							<li><a href="#">服装</a></li>
+							<li><a href="#">运动户外</a></li>
+							<li><a href="#">孕婴童</a></li>
+							<li><a href="#">家居</a></li>
+							<li><a href="#">创意文具</a></li>
+							<li><a href="#">地方特产</a></li>
+							<li><a href="#">海外购</a></li>
+							<li><a href="#">电器城</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--内容-->
+		<div class="content">
+			<!--banner广告和热卖畅销-->
+			<div class="banner_hot clear">
+				<div class="banner fl">
+					<div class="pptbox" id="product_mainBanner">
+						<ul class="innerwrapper">
+							<li><a href="#"><img src="img/banner1.jpg"/></a></li>
+							<li><a href="#"><img src="img/banner2.jpg"/></a></li>
+							<li><a href="#"><img src="img/banner3.jpg"/></a></li>
+							<li><a href="#"><img src="img/banner4.jpg"/></a></li>
+							<li><a href="#"><img src="img/banner5.jpg"/></a></li>
+							<li><a href="#"><img src="img/banner6.jpg"/></a></li>
+						</ul>
+						<ul class="controls">
+							<li class="current">1</li>
+							<li>2</li>
+							<li>3</li>
+							<li>4</li>
+							<li>5</li>
+							<li>6</li>
+						</ul>			
+						<span class="btnleft"></span>
+						<span class="btnright"></span>
+					</div>
+				</div>
+				<div class="hot fl">
+					<div class="ebook_right fr">
+					<h2 class="b2b2b2">新书畅销榜</h2>
+						<ul class="m_t10 font14" id="hot_sale">
+							<li class="m_t10 clear">
+								<div class="default_title clear dis_none">
+									<span class="f4290d fl">1</span>
+									<p class="default_text font16 c_323232 fl m_l6 ">就喜欢你看不惯我</p>
+								</div>
+								<div class="hot_content ">
+									<span class="fl">1</span>
+									<ul class="hot_one c_323232 fl">
+										<img class="fl" src="img/demobook1.jpg"/>
+										从你的世界路过 入选央视“2014中国好书”的80后作品！
+									</ul>
+									<div class="cl"></div>
+								</div>
+							</li>
+							<li class="m_t10 clear">
+								<div class="default_title clear">
+									<span class="f4290d fl">2</span>
+									<p class="default_text font16 c_323232 fl m_l6">就喜欢你看不惯我</p>
+								</div>
+								<div class="hot_content dis_none">
+									<span class="f4290d fl">2</span>
+									<ul class="hot_one c_323232 fl">
+										 <img class="fl" src="img/demobook1.jpg"/>
+										从你的世界路过 入选央视“2014中国好书”的80后作品！
+									</ul>
+									<div class="cl"></div>
+								</div>
+							</li>
+							<li class="m_t10 clear">
+								<div class="default_title clear">
+									<span class="f4290d fl">3</span>
+									<p class="default_text font16 c_323232 fl m_l6">就喜欢你看不惯我</p>
+								</div>
+								<div class="hot_content dis_none">
+									<span class="f4290d fl">3</span>
+									<ul class="hot_one c_323232 fl">
+										 <img class="fl" src="img/demobook1.jpg"/>
+										从你的世界路过 入选央视“2014中国好书”的80后作品！
+									</ul>
+									<div class="cl"></div>
+								</div>
+							</li>
+							<li class="m_t10 clear">
+								<div class="default_title clear">
+									<span class=" fl">4</span>
+									<p class="default_text font16 c_323232 fl m_l6">就喜欢你看不惯我</p>
+								</div>
+								<div class="hot_content dis_none">
+									<span class=" fl">4</span>
+									<ul class="hot_one c_323232 fl">
+										 <img class="fl" src="img/demobook1.jpg"/>
+										从你的世界路过 入选央视“2014中国好书”的80后作品！
+									</ul>
+									<div class="cl"></div>
+								</div>
+							</li>
+							<li class="m_t10 clear">
+								<div class="default_title clear">
+									<span class=" fl">5</span>
+									<p class="default_text font16 c_323232 fl m_l6">就喜欢你看不惯我</p>
+								</div>
+								<div class="hot_content dis_none">
+									<span class=" fl">5</span>
+									<ul class="hot_one c_323232 fl">
+										 <img class="fl" src="img/demobook1.jpg"/>
+										从你的世界路过 入选央视“2014中国好书”的80后作品！
+									</ul>
+									<div class="cl"></div>
+								</div>
+							</li>
+							<li class="m_t10 clear">
+								<div class="default_title clear">
+									<span class=" fl">6</span>
+									<p class="default_text font16 c_323232 fl m_l6">就喜欢你看不惯我</p>
+								</div>
+								<div class="hot_content dis_none">
+									<span class=" fl">6</span>
+									<ul class="hot_one c_323232 fl">
+										 <img class="fl" src="img/demobook1.jpg"/>
+										从你的世界路过 入选央视“2014中国好书”的80后作品！
+									</ul>
+									<div class="cl"></div>
+								</div>
+							</li>
+							<li class="m_t10 clear">
+								<div class="default_title clear">
+									<span class=" fl">7</span>
+									<p class="default_text font16 c_323232 fl m_l6">就喜欢你看不惯我</p>
+								</div>
+								<div class="hot_content dis_none">
+									<span class=" fl">7</span>
+									<ul class="hot_one c_323232 fl">
+										 <img class="fl" src="img/demobook1.jpg"/>
+										从你的世界路过 入选央视“2014中国好书”的80后作品！
+									</ul>
+									<div class="cl"></div>
+								</div>
+							</li>
+							</ul>
+					</div>
+				</div>
+				<a href="#"><img src="img/bannermosou.png"/></a>
+			</div>
+			<!--乐购·图书折扣-->
+			<div class="discount m_t25">
+				<!--人气单品-->
+				<div id="productPeplo">
+				<div class="productTitle">
+					<div class="prodictTitleCon font24">
+						乐购·图书折扣区
+					</div>
+				</div>
+				<div class="productCon clear">
+					<!--第1个商品-->
+					<div class="productConbox fl morencurrent">
+						<div class="productImg">
+							<a href="#"><img src="img/images/22935553-1_l.jpg"/></a>
+						</div>
+						<p class="eightzhe"><a href="#"><img src="img/bgzhe.png"/></a></p>
+						<span class="bookname font14"><a href="#">白夜行 </a>&nbsp;<a href="#"> 东野上吾</a></span>
+						<span class="f4290d m_l10 font14">推荐：&nbsp;<img src="img/star.png"/></span>
+						<div class="productConboxBto">¥:38 &nbsp;&nbsp;<span class="del_hui"> ¥:58</span> </div>
+					</div>
+					<!--第2个商品-->
+					<div class="productConbox fl">
+						<div class="productImg">
+							<a href="#"><img src="img/images/22935553-1_l.jpg"/></a>
+						</div>
+						<p class="eightzhe"><a href="#"><img src="img/bgzhe.png"/></a></p>
+						<span class="bookname font14"><a href="#">白夜行 </a>&nbsp;<a href="#"> 东野上吾</a></span>
+						<span class="f4290d m_l10 font14">推荐：&nbsp;<img src="img/star.png"/></span>
+						<div class="productConboxBto">¥:38 &nbsp;&nbsp;<span class="del_hui"> ¥:58</span> </div>
+					</div>
+					<!--第3个商品-->
+					<div class="productConbox fl">
+						<div class="productImg">
+							<a href="#"><img src="img/images/22935553-1_l.jpg"/></a>
+						</div>
+						<p class="eightzhe"><a href="#"><img src="img/bgzhe.png"/></a></p>
+						<span class="bookname font14"><a href="#">白夜行 </a>&nbsp;<a href="#"> 东野上吾</a></span>
+						<span class="f4290d m_l10 font14">推荐：&nbsp;<img src="img/star.png"/></span>
+						<div class="productConboxBto">¥:38 &nbsp;&nbsp;<span class="del_hui"> ¥:58</span> </div>
+					</div>
+					<!--第4个商品-->
+					<div class="productConbox fl">
+						<div class="productImg">
+							<a href="#"><img src="img/images/22935553-1_l.jpg"/></a>
+						</div>
+						<p class="eightzhe"><a href="#"><img src="img/bgzhe.png"/></a></p>
+						<span class="bookname font14"><a href="#">白夜行 </a>&nbsp;<a href="#"> 东野上吾</a></span>
+						<span class="f4290d m_l10 font14">推荐：&nbsp;<img src="img/star.png"/></span>
+						<div class="productConboxBto">¥:38 &nbsp;&nbsp;<span class="del_hui"> ¥:58</span> </div>
+					</div>
+					<!--第5个商品-->
+					<div class="productConbox fl">
+						<div class="productImg">
+							<a href="#"><img src="img/images/22935553-1_l.jpg"/></a>
+						</div>
+						<p class="eightzhe"><a href="#"><img src="img/bgzhe.png"/></a></p>
+						<span class="bookname font14"><a href="#">白夜行 </a>&nbsp;<a href="#"> 东野上吾</a></span>
+						<span class="f4290d m_l10 font14">推荐：&nbsp;<img src="img/star.png"/></span>
+						<div class="productConboxBto">¥:38 &nbsp;&nbsp;<span class="del_hui"> ¥:58</span> </div>
+					</div>
+					<!--第6个商品-->
+					<div class="productConbox fl">
+						<div class="productImg">
+							<a href="#"><img src="img/22788959-1_l.jpg"/></a>
+						</div>
+						<p class="eightzhe"><a href="#"><img src="img/zhekou6.png"/></a></p>
+						<span class="bookname font14"><a href="#">白夜行 </a>&nbsp;<a href="#"> 东野上吾</a></span>
+						<span class="f4290d m_l10 font14">推荐：&nbsp;<img src="img/star.png"/></span>
+						<div class="productConboxBto">¥:38 &nbsp;&nbsp;<span class="del_hui"> ¥:58</span> </div>
+					</div>
+					<!--第7个商品-->
+					<div class="productConbox fl">
+						<div class="productImg">
+							<a href="#"><img src="img/22788959-1_l.jpg"/></a>
+						</div>
+						<p class="eightzhe"><a href="#"><img src="img/zhekou6.png"/></a></p>
+						<span class="bookname font14"><a href="#">白夜行 </a>&nbsp;<a href="#"> 东野上吾</a></span>
+						<span class="f4290d m_l10 font14">推荐：&nbsp;<img src="img/star.png"/></span>
+						<div class="productConboxBto">¥:38 &nbsp;&nbsp;<span class="del_hui"> ¥:58</span> </div>
+					</div>
+					<!--第8个商品-->
+					<div class="productConbox fl">
+						<div class="productImg">
+							<a href="#"><img src="img/22788959-1_l.jpg"/></a>
+						</div>
+						<p class="eightzhe"><a href="#"><img src="img/zhekou6.png"/></a></p>
+						<span class="bookname font14"><a href="#">白夜行 </a>&nbsp;<a href="#"> 东野上吾</a></span>
+						<span class="f4290d m_l10 font14">推荐：&nbsp;<img src="img/star.png"/></span>
+						<div class="productConboxBto">¥:38 &nbsp;&nbsp;<span class="del_hui"> ¥:58</span> </div>
+					</div>
+					<!--第9个商品-->
+					<div class="productConbox fl">
+						<div class="productImg">
+							<a href="#"><img src="img/22788959-1_l.jpg"/></a>
+						</div>
+						<p class="eightzhe"><a href="#"><img src="img/zhekou6.png"/></a></p>
+						<span class="bookname font14"><a href="#">白夜行 </a>&nbsp;<a href="#"> 东野上吾</a></span>
+						<span class="f4290d m_l10 font14">推荐：&nbsp;<img src="img/star.png"/></span>
+						<div class="productConboxBto">¥:38 &nbsp;&nbsp;<span class="del_hui"> ¥:58</span> </div>
+					</div>
+					<!--第10个商品-->
+					<div class="productConbox fl">
+						<div class="productImg">
+							<a href="#"><img src="img/22788959-1_l.jpg"/></a>
+						</div>
+						<p class="eightzhe"><a href="#"><img src="img/zhekou6.png"/></a></p>
+						<span class="bookname font14"><a href="#">白夜行 </a>&nbsp;<a href="#"> 东野上吾</a></span>
+						<span class="f4290d m_l10 font14">推荐：&nbsp;<img src="img/star.png"/></span>
+						<div class="productConboxBto">¥:38 &nbsp;&nbsp;<span class="del_hui"> ¥:58</span> </div>
+					</div>
+				</div>
+			</div>
+			
+				
+				
+			</div>
+			<!--新书上架-->
+			<div class="newbooks clear">
+				<div class="newbooks_left fl">
+					<div class="common_title m_t30">
+						<p class=" font22"><span class="font28 fff f60">新</span> 书上架</p>
+					</div>
+					<div class="newbooks_left_con clear">
+						<!--第1个图书-->
+						<div class="common_con fl">
+							<a href="#"><img src="img/images/22928335-1_l.jpg"/></a>
+							<p ><a class="font14 c333" href="#">查理 斯密斯</a></p>
+							<p ><a class="font14 c808080" href="#">中国邮电出版社</a></p>
+							<p class="font18 b2b2b2"><span class="f91616">￥49</span> <span class="line_though">￥79</span></p>
+						</div>
+						<!--第2个图书-->
+						<div class="common_con fl">
+							<a href="#"><img src="img/images/22928335-1_l.jpg"/></a>
+							<p ><a class="font14 c333" href="#">查理 斯密斯</a></p>
+							<p ><a class="font14 c808080" href="#">中国邮电出版社</a></p>
+							<p class="font18 b2b2b2"><span class="f91616">￥49</span> <span class="line_though">￥79</span></p>
+						</div>
+						<!--第3个图书-->
+						<div class="common_con fl">
+							<a href="#"><img src="img/images/22928335-1_l.jpg"/></a>
+							<p ><a class="font14 c333" href="#">查理 斯密斯</a></p>
+							<p ><a class="font14 c808080" href="#">中国邮电出版社</a></p>
+							<p class="font18 b2b2b2"><span class="f91616">￥49</span> <span class="line_though">￥79</span></p>
+						</div>
+						<!--第4个图书-->
+						<div class="common_con fl">
+							<a href="#"><img src="img/images/22928335-1_l.jpg"/></a>
+							<p ><a class="font14 c333" href="#">查理 斯密斯</a></p>
+							<p ><a class="font14 c808080" href="#">中国邮电出版社</a></p>
+							<p class="font18 b2b2b2"><span class="f91616">￥49</span> <span class="line_though">￥79</span></p>
+						</div>
+						<!--第5个图书-->
+						<div class="common_con fl">
+							<a href="#"><img src="img/images/22928335-1_l.jpg"/></a>
+							<p ><a class="font14 c333" href="#">查理 斯密斯</a></p>
+							<p ><a class="font14 c808080" href="#">中国邮电出版社</a></p>
+							<p class="font18 b2b2b2"><span class="f91616">￥49</span> <span class="line_though">￥79</span></p>
+						</div>
+						<!--第6个图书-->
+						<div class="common_con fl">
+							<a href="#"><img src="img/images/22499729-1_l_5.jpg"/></a>
+							<p ><a class="font14 c333" href="#">查理 斯密斯</a></p>
+							<p ><a class="font14 c808080" href="#">中国邮电出版社</a></p>
+							<p class="font18 b2b2b2"><span class="f91616">￥49</span> <span class="line_though">￥79</span></p>
+						</div>
+						<!--第7个图书-->
+						<div class="common_con fl">
+							<a href="#"><img src="img/images/22499729-1_l_5.jpg"/></a>
+							<p ><a class="font14 c333" href="#">查理 斯密斯</a></p>
+							<p ><a class="font14 c808080" href="#">中国邮电出版社</a></p>
+							<p class="font18 b2b2b2"><span class="f91616">￥49</span> <span class="line_though">￥79</span></p>
+						</div>
+						<!--第8个图书-->
+						<div class="common_con fl">
+							<a href="#"><img src="img/images/22499729-1_l_5.jpg"/></a>
+							<p ><a class="font14 c333" href="#">查理 斯密斯</a></p>
+							<p ><a class="font14 c808080" href="#">中国邮电出版社</a></p>
+							<p class="font18 b2b2b2"><span class="f91616">￥49</span> <span class="line_though">￥79</span></p>
+						</div>
+						<!--第9个图书-->
+						<div class="common_con fl">
+							<a href="#"><img src="img/images/22499729-1_l_5.jpg"/></a>
+							<p ><a class="font14 c333" href="#">查理 斯密斯</a></p>
+							<p ><a class="font14 c808080" href="#">中国邮电出版社</a></p>
+							<p class="font18 b2b2b2"><span class="f91616">￥49</span> <span class="line_though">￥79</span></p>
+						</div>
+						<!--第10个图书-->
+						<div class="common_con fl">
+							<a href="#"><img src="img/images/22499729-1_l_5.jpg"/></a>
+							<p ><a class="font14 c333" href="#">查理 斯密斯</a></p>
+							<p ><a class="font14 c808080" href="#">中国邮电出版社</a></p>
+							<p class="font18 b2b2b2"><span class="f91616">￥49</span> <span class="line_though">￥79</span></p>
+						</div>
+					
+					
+					
+					
+					</div>
+				</div>
+				<div class="ebook_right fr">
+					<h2 class="b2b2b2">新书畅销榜</h2>
+					<ul class="m_t10 font14" id="hot_sale">
+						<li class="m_t10 clear">
+							<div class="default_title clear dis_none">
+								<span class="f4290d fl">1</span>
+								<p class="default_text font16 c_323232 fl m_l6 ">就喜欢你看不惯我  又干不</p>
+							</div>
+							<div class="hot_content ">
+								<span class="fl">1</span>
+								<ul class="hot_one c_323232 fl">
+									<img class="fl" src="img/demobook1.jpg"/>
+									从你的世界路过 入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次
+								</ul>
+								<div class="cl"></div>
+							</div>
+						</li>
+						<li class="m_t10 clear">
+							<div class="default_title clear">
+								<span class="f4290d fl">2</span>
+								<p class="default_text font16 c_323232 fl m_l6">就喜欢你看不惯我  又干不</p>
+							</div>
+							<div class="hot_content dis_none">
+								<span class="f4290d fl">2</span>
+								<ul class="hot_one c_323232 fl">
+									 <img class="fl" src="img/demobook1.jpg"/>
+									从你的世界路过 入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次
+								</ul>
+								<div class="cl"></div>
+							</div>
+						</li>
+						<li class="m_t10 clear">
+							<div class="default_title clear">
+								<span class="f4290d fl">3</span>
+								<p class="default_text font16 c_323232 fl m_l6">就喜欢你看不惯我  又干不</p>
+							</div>
+							<div class="hot_content dis_none">
+								<span class="f4290d fl">3</span>
+								<ul class="hot_one c_323232 fl">
+									 <img class="fl" src="img/demobook1.jpg"/>
+									从你的世界路过 入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次
+								</ul>
+								<div class="cl"></div>
+							</div>
+						</li>
+						<li class="m_t10 clear">
+							<div class="default_title clear">
+								<span class=" fl">4</span>
+								<p class="default_text font16 c_323232 fl m_l6">就喜欢你看不惯我  又干不</p>
+							</div>
+							<div class="hot_content dis_none">
+								<span class=" fl">4</span>
+								<ul class="hot_one c_323232 fl">
+									 <img class="fl" src="img/demobook1.jpg"/>
+									从你的世界路过 入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次
+								</ul>
+								<div class="cl"></div>
+							</div>
+						</li>
+						<li class="m_t10 clear">
+							<div class="default_title clear">
+								<span class=" fl">5</span>
+								<p class="default_text font16 c_323232 fl m_l6">就喜欢你看不惯我  又干不</p>
+							</div>
+							<div class="hot_content dis_none">
+								<span class=" fl">5</span>
+								<ul class="hot_one c_323232 fl">
+									 <img class="fl" src="img/demobook1.jpg"/>
+									从你的世界路过 入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次
+								</ul>
+								<div class="cl"></div>
+							</div>
+						</li>
+						<li class="m_t10 clear">
+							<div class="default_title clear">
+								<span class=" fl">6</span>
+								<p class="default_text font16 c_323232 fl m_l6">就喜欢你看不惯我  又干不</p>
+							</div>
+							<div class="hot_content dis_none">
+								<span class=" fl">6</span>
+								<ul class="hot_one c_323232 fl">
+									 <img class="fl" src="img/demobook1.jpg"/>
+									从你的世界路过 入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次
+								</ul>
+								<div class="cl"></div>
+							</div>
+						</li>
+						<li class="m_t10 clear">
+							<div class="default_title clear">
+								<span class=" fl">7</span>
+								<p class="default_text font16 c_323232 fl m_l6">就喜欢你看不惯我  又干不</p>
+							</div>
+							<div class="hot_content dis_none">
+								<span class=" fl">7</span>
+								<ul class="hot_one c_323232 fl">
+									 <img class="fl" src="img/demobook1.jpg"/>
+									从你的世界路过 入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次
+								</ul>
+								<div class="cl"></div>
+							</div>
+						</li>
+						<li class="m_t10 clear">
+							<div class="default_title clear">
+								<span class=" fl">8</span>
+								<p class="default_text1 font16 c_323232 fl m_l6">就喜欢你看不惯我  又干不</p>
+							</div>
+							<div class="hot_content dis_none">
+								<span class=" fl">8</span>
+								<ul class="hot_one1 c_323232 fl">
+									 <img class="fl" src="img/demobook1.jpg"/>
+									从你的世界路过 入选央视“2014中国好书”的80后作品！十年华语畅销小说，王家卫陈国富倾力推荐， 1500万次转发，超4亿次
+								</ul>
+								<div class="cl"></div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--独家提供-->
+			<div class="offer m50">
+				<!--独家提供标题-->
+				<div class="common_title m_t30 ">
+					<p class="font22 fl"><span class="font28 fff f60">独</span> 家提供</p>
+					<ul class="fr clear">
+						<li class="offercurrent">货币金融</li>
+						<li>社会文学</li>
+						<li>科学技术</li>
+						<li>儿童文学</li>
+						<li>教学参辅</li>
+						<li>生活</li>
+						<li>小说</li>
+					</ul>
+				</div>
+				<!--独家提供内容-->
+				<div class="offer_con class">
+					<img class="fl img" src="img/offerleft_03.jpg"/>
+					<div class="offer_con_cen fl">
+					<!--第1个图书-->
+					<div class="common_con fl">
+						<a href="#"><img src="img/images/23418061-1_l.jpg"/></a>
+						<p ><a class="font14 c333" href="#">查理 斯密斯</a></p>
+						<p ><a class="font14 c808080" href="#">中国邮电出版社</a></p>
+						<p class="font18 b2b2b2"><span class="f91616">￥49</span> <span class="line_though">￥79</span></p>
+					</div>
+					<!--第2个图书-->
+					<div class="common_con fl">
+						<a href="#"><img src="img/images/23418061-1_l.jpg"/></a>
+						<p ><a class="font14 c333" href="#">查理 斯密斯</a></p>
+						<p ><a class="font14 c808080" href="#">中国邮电出版社</a></p>
+						<p class="font18 b2b2b2"><span class="f91616">￥49</span> <span class="line_though">￥79</span></p>
+					</div>
+					<!--第3个图书-->
+					<div class="common_con fl">
+						<a href="#"><img src="img/images/23418061-1_l.jpg"/></a>
+						<p ><a class="font14 c333" href="#">查理 斯密斯</a></p>
+						<p ><a class="font14 c808080" href="#">中国邮电出版社</a></p>
+						<p class="font18 b2b2b2"><span class="f91616">￥49</span> <span class="line_though">￥79</span></p>
+					</div>
+					<!--第4个图书-->
+					<div class="common_con fl">
+						<a href="#"><img src="img/images/23418061-1_l.jpg"/></a>
+						<p ><a class="font14 c333" href="#">查理 斯密斯</a></p>
+						<p ><a class="font14 c808080" href="#">中国邮电出版社</a></p>
+						<p class="font18 b2b2b2"><span class="f91616">￥49</span> <span class="line_though">￥79</span></p>
+					</div>
+					<!--第5个图书-->
+					<div class="common_con fl">
+						<a href="#"><img src="img/images/23418061-1_l.jpg"/></a>
+						<p ><a class="font14 c333" href="#">查理 斯密斯</a></p>
+						<p ><a class="font14 c808080" href="#">中国邮电出版社</a></p>
+						<p class="font18 b2b2b2"><span class="f91616">￥49</span> <span class="line_though">￥79</span></p>
+					</div>
+					<!--第6个图书-->
+					<div class="common_con fl">
+						<a href="#"><img src="img/images/23418061-1_l.jpg"/></a>
+						<p ><a class="font14 c333" href="#">查理 斯密斯</a></p>
+						<p ><a class="font14 c808080" href="#">中国邮电出版社</a></p>
+						<p class="font18 b2b2b2"><span class="f91616">￥49</span> <span class="line_though">￥79</span></p>
+					</div>
+					<!--第7个图书-->
+					<div class="common_con fl">
+						<a href="#"><img src="img/images/22913031-1_l.jpg"/></a>
+						<p ><a class="font14 c333" href="#">查理 斯密斯</a></p>
+						<p ><a class="font14 c808080" href="#">中国邮电出版社</a></p>
+						<p class="font18 b2b2b2"><span class="f91616">￥49</span> <span class="line_though">￥79</span></p>
+					</div>
+					<!--第8个图书-->
+					<div class="common_con fl">
+						<a href="#"><img src="img/images/22913031-1_l.jpg"/></a>
+						<p ><a class="font14 c333" href="#">查理 斯密斯</a></p>
+						<p ><a class="font14 c808080" href="#">中国邮电出版社</a></p>
+						<p class="font18 b2b2b2"><span class="f91616">￥49</span> <span class="line_though">￥79</span></p>
+					</div>
+					<!--第9个图书-->
+					<div class="common_con fl">
+						<a href="#"><img src="img/images/22913031-1_l.jpg"/></a>
+						<p ><a class="font14 c333" href="#">查理 斯密斯</a></p>
+						<p ><a class="font14 c808080" href="#">中国邮电出版社</a></p>
+						<p class="font18 b2b2b2"><span class="f91616">￥49</span> <span class="line_though">￥79</span></p>
+					</div>
+					<!--第10个图书-->
+					<div class="common_con fl">
+						<a href="#"><img src="img/images/22913031-1_l.jpg"/></a>
+						<p ><a class="font14 c333" href="#">查理 斯密斯</a></p>
+						<p ><a class="font14 c808080" href="#">中国邮电出版社</a></p>
+						<p class="font18 b2b2b2"><span class="f91616">￥49</span> <span class="line_though">￥79</span></p>
+					</div>
+					<!--第11个图书-->
+					<div class="common_con fl">
+						<a href="#"><img src="img/images/22913031-1_l.jpg"/></a>
+						<p ><a class="font14 c333" href="#">查理 斯密斯</a></p>
+						<p ><a class="font14 c808080" href="#">中国邮电出版社</a></p>
+						<p class="font18 b2b2b2"><span class="f91616">￥49</span> <span class="line_though">￥79</span></p>
+					</div>
+					<!--第12个图书-->
+					<div class="common_con fl">
+						<a href="#"><img src="img/images/22913031-1_l.jpg"/></a>
+						<p ><a class="font14 c333" href="#">查理 斯密斯</a></p>
+						<p ><a class="font14 c808080" href="#">中国邮电出版社</a></p>
+						<p class="font18 b2b2b2"><span class="f91616">￥49</span> <span class="line_though">￥79</span></p>
+					</div>
+				</div>
+					<img class="fr img" src="img/offerright_03.jpg"/>
+				</div>
+			</div>
+			<!--猜你喜欢-->
+			<div class="guess_like m_t40">
+				<!--猜你喜欢标题-->
+				<div class="common_title m_t30 ">
+					<p class="font22 fl"><span class="font28 fff f60">猜</span> 你喜欢</p>
+				</div>
+				<!--猜你喜欢内容-->
+				<div class="guess_like_con class">
+					<!--第1个图书-->
+					<div class="common_con fl">
+						<a href="#"><img src="img/images/22790777-1_l_1.jpg"/></a>
+						<p ><a class="font14 c333" href="#">查理 斯密斯</a></p>
+						<p ><a class="font14 c808080" href="#">中国邮电出版社</a></p>
+						<p class="font18 b2b2b2"><span class="f91616">￥49</span> <span class="line_though">￥79</span></p>
+					</div>
+					<!--第2个图书-->
+					<div class="common_con fl">
+						<a href="#"><img src="img/images/22790777-1_l_1.jpg"/></a>
+						<p ><a class="font14 c333" href="#">查理 斯密斯</a></p>
+						<p ><a class="font14 c808080" href="#">中国邮电出版社</a></p>
+						<p class="font18 b2b2b2"><span class="f91616">￥49</span> <span class="line_though">￥79</span></p>
+					</div>
+					<!--第3个图书-->
+					<div class="common_con fl">
+						<a href="#"><img src="img/images/22790777-1_l_1.jpg"/></a>
+						<p ><a class="font14 c333" href="#">查理 斯密斯</a></p>
+						<p ><a class="font14 c808080" href="#">中国邮电出版社</a></p>
+						<p class="font18 b2b2b2"><span class="f91616">￥49</span> <span class="line_though">￥79</span></p>
+					</div>
+					<!--第4个图书-->
+					<div class="common_con fl">
+						<a href="#"><img src="img/images/22790777-1_l_1.jpg"/></a>
+						<p ><a class="font14 c333" href="#">查理 斯密斯</a></p>
+						<p ><a class="font14 c808080" href="#">中国邮电出版社</a></p>
+						<p class="font18 b2b2b2"><span class="f91616">￥49</span> <span class="line_though">￥79</span></p>
+					</div>
+					<!--第5个图书-->
+					<div class="common_con fl">
+						<a href="#"><img src="img/images/22790777-1_l_1.jpg"/></a>
+						<p ><a class="font14 c333" href="#">查理 斯密斯</a></p>
+						<p ><a class="font14 c808080" href="#">中国邮电出版社</a></p>
+						<p class="font18 b2b2b2"><span class="f91616">￥49</span> <span class="line_though">￥79</span></p>
+					</div>
+					<!--第6个图书-->
+					<div class="common_con fl">
+						<a href="#"><img src="img/images/22790777-1_l_1.jpg"/></a>
+						<p ><a class="font14 c333" href="#">查理 斯密斯</a></p>
+						<p ><a class="font14 c808080" href="#">中国邮电出版社</a></p>
+						<p class="font18 b2b2b2"><span class="f91616">￥49</span> <span class="line_though">￥79</span></p>
+					</div>
+					<!--第7个图书-->
+					<div class="common_con fl">
+						<a href="#"><img src="img/images/22876893-1_l.jpg"/></a>
+						<p ><a class="font14 c333" href="#">查理 斯密斯</a></p>
+						<p ><a class="font14 c808080" href="#">中国邮电出版社</a></p>
+						<p class="font18 b2b2b2"><span class="f91616">￥49</span> <span class="line_though">￥79</span></p>
+					</div>
+					<!--第8个图书-->
+					<div class="common_con fl">
+						<a href="#"><img src="img/images/22876893-1_l.jpg"/></a>
+						<p ><a class="font14 c333" href="#">查理 斯密斯</a></p>
+						<p ><a class="font14 c808080" href="#">中国邮电出版社</a></p>
+						<p class="font18 b2b2b2"><span class="f91616">￥49</span> <span class="line_though">￥79</span></p>
+					</div>
+					<!--第9个图书-->
+					<div class="common_con fl">
+						<a href="#"><img src="img/images/22876893-1_l.jpg"/></a>
+						<p ><a class="font14 c333" href="#">查理 斯密斯</a></p>
+						<p ><a class="font14 c808080" href="#">中国邮电出版社</a></p>
+						<p class="font18 b2b2b2"><span class="f91616">￥49</span> <span class="line_though">￥79</span></p>
+					</div>
+					<!--第10个图书-->
+					<div class="common_con fl">
+						<a href="#"><img src="img/images/22876893-1_l.jpg"/></a>
+						<p ><a class="font14 c333" href="#">查理 斯密斯</a></p>
+						<p ><a class="font14 c808080" href="#">中国邮电出版社</a></p>
+						<p class="font18 b2b2b2"><span class="f91616">￥49</span> <span class="line_though">￥79</span></p>
+					</div>
+					<!--第11个图书-->
+					<div class="common_con fl">
+						<a href="#"><img src="img/images/22876893-1_l.jpg"/></a>
+						<p ><a class="font14 c333" href="#">查理 斯密斯</a></p>
+						<p ><a class="font14 c808080" href="#">中国邮电出版社</a></p>
+						<p class="font18 b2b2b2"><span class="f91616">￥49</span> <span class="line_though">￥79</span></p>
+					</div>
+					<!--第12个图书-->
+					<div class="common_con fl">
+							<a href="#"><img src="img/images/22876893-1_l.jpg"/></a>
+							<p ><a class="font14 c333" href="#">查理 斯密斯</a></p>
+							<p ><a class="font14 c808080" href="#">中国邮电出版社</a></p>
+							<p class="font18 b2b2b2"><span class="f91616">￥49</span> <span class="line_though">￥79</span></p>
+						</div>
+				</div>
+			</div>
+			<!--人文社科-->
+			<div class="humanities clear">
+				<!--第1个人文社科内容-->
+				<div class="humanities_box clear fl">
+					<div class="humanities_box_text fl">
+						<p class="font16"><a href="#">人文社科精选</a></p>
+						<p><a class="c808080 font14" href="#">书好价优</a></p>
+						<p class="radius font16"><a href="#" class="fff">满3件折上7折</a></p>
+					</div>
+					<a href="#"><img class="fl" src="img/humanities_07.jpg"/></a>
+				</div>
+				<!--第2个人文社科内容-->
+				<div class="humanities_box clear fl">
+					<div class="humanities_box_text fl">
+						<p class="font16"><a href="#">人文社科精选</a></p>
+						<p><a class="c808080 font14" href="#">书好价优</a></p>
+						<p class="radius font16"><a href="#" class="fff">满3件折上7折</a></p>
+					</div>
+					<a href="#"><img class="fl" src="img/humanities_07.jpg"/></a>
+				</div>
+				<!--第3个人文社科内容-->
+				<div class="humanities_box clear fl">
+					<div class="humanities_box_text fl">
+						<p class="font16"><a href="#">人文社科精选</a></p>
+						<p><a class="c808080 font14" href="#">书好价优</a></p>
+						<p class="radius font16"><a href="#" class="fff">满3件折上7折</a></p>
+					</div>
+					<a href="#"><img class="fl" src="img/humanities_07.jpg"/></a>
+				</div>
+				<!--第4个人文社科内容-->
+				<div class="humanities_box clear fl">
+					<div class="humanities_box_text fl">
+						<p class="font16"><a href="#">人文社科精选</a></p>
+						<p><a class="c808080 font14" href="#">书好价优</a></p>
+						<p class="radius font16"><a href="#" class="fff">满3件折上7折</a></p>
+					</div>
+					<a href="#"><img class="fl" src="img/humanities_07.jpg"/></a>
+				</div>
+				<!--第5个人文社科内容-->
+				<div class="humanities_box clear fl">
+					<div class="humanities_box_text fl">
+						<p class="font16"><a href="#">人文社科精选</a></p>
+						<p><a class="c808080 font14" href="#">书好价优</a></p>
+						<p class="radius font16"><a href="#" class="fff">满3件折上7折</a></p>
+					</div>
+					<a href="#"><img class="fl" src="img/humanities_07.jpg"/></a>
+				</div>
+				<!--第6个人文社科内容-->
+				<div class="humanities_box clear fl">
+					<div class="humanities_box_text fl">
+						<p class="font16"><a href="#">人文社科精选</a></p>
+						<p><a class="c808080 font14" href="#">书好价优</a></p>
+						<p class="radius font16"><a href="#" class="fff">满3件折上7折</a></p>
+					</div>
+					<a href="#"><img class="fl" src="img/humanities_07.jpg"/></a>
+				</div>
+			</div>
+			<!--广告图-->
+			<div id="mosoureImg">
+				<img src="img/bannermosou.png"/>
+			</div>
+		</div>
+		<!--底部信息-->
+		<div class="footer">
+			<div id="footer_auto">
+				<div id="footer_autoCen" class="content clear">
+					<div class="bc1 fl"><a href="#"> </a></div>
+					<div class="bc2 fl"><a href="#"> </a></div>
+					<div class="bc3 fl"><a href="#"> </a></div>
+					<div class="bc4 fl"><a href="#"> </a></div>
+				</div>
+			</div>
+			<div id="footer_Con" class="content">
+				<!--底部信息中间部分-->
+				<div id="footer_Con_top" class="clear">
+					<div id="footer_Con_top_Left" class="fl clear">
+						<!--第1列信息-->
+						<div class="footer_Information fl">
+							<ul>
+								<li class="weight"><a class="font18 ht c000" href="#">购物指南</a></li>
+								<li><a class="b2b2b2" href="#">购物流程</a></li>
+								<li><a class="b2b2b2" href="#">发票制度</a></li>
+								<li><a class="b2b2b2" href="#">账户管理</a></li>
+								<li><a class="b2b2b2" href="#">会员优惠</a></li>
+							</ul>
+						</div>
+						<!--第2列信息-->
+						<div class="footer_Information fl">
+							<ul>
+								<li class="weight"><a class="font18 ht c000" href="#">支付方式</a></li>
+								<li><a class="b2b2b2" href="#">货到付款</a></li>
+								<li><a class="b2b2b2" href="#">网上支付</a></li>
+								<li><a class="b2b2b2" href="#">礼品卡支付</a></li>
+								<li><a class="b2b2b2" href="#">银行转账</a></li>
+							</ul>
+						</div>
+						<!--第3列信息-->
+						<div class="footer_Information fl">
+							<ul>
+								<li class="weight"><a class="font18 ht c000" href="#">订单服务</a></li>
+								<li><a class="b2b2b2" href="#">订单配送查询</a></li>
+								<li><a class="b2b2b2" href="#">订单状态说明</a></li>
+								<li><a class="b2b2b2" href="#">自助取消订单</a></li>
+								<li><a class="b2b2b2" href="#">自助修改订单</a></li>
+							</ul>
+						</div>
+						<!--第4列信息-->
+						<div class="footer_Information fl">
+							<ul>
+								<li class="weight"><a class="font18 ht c000" href="#">退换货</a></li>
+								<li><a class="b2b2b2" href="#">退换货政策</a></li>
+								<li><a class="b2b2b2" href="#">自助申请退换货</a></li>
+								<li><a class="b2b2b2" href="#">退换货进度查询</a></li>
+								<li><a class="b2b2b2" href="#">退款方式和时间</a></li>
+							</ul>
+						</div>
+						<!--第5列信息-->
+						<div class="footer_Information fl">
+							<ul>
+								<li class="weight"><a class="font18 ht c000" href="#">商家服务</a></li>
+								<li><a class="b2b2b2" href="#">商家中心</a></li>
+								<li><a class="b2b2b2" href="#">运营服务</a></li>
+								<li><a class="b2b2b2" href="#">加入尾品汇</a></li>
+							</ul>
+						</div>
+					</div>
+					<div id="footer_Con_top_Right" class="fr">
+						<a href="#"><img src="img/logo_00.png"/></a>
+					</div>
+				</div>
+				<!--底部信息简介-->
+				<div id="footerBto">
+					<ul class="clear">
+						<li><a href="#">公司简介</a></li>
+						<li><a href="#">Inverstor  Relations</a></li>
+						<li><a href="#">网站联盟</a></li>
+						<li><a href="#">乐购招商</a></li>
+						<li><a href="#">机构销售</a></li>
+						<li><a href="#">手机乐购</a></li>
+						<li><a href="#">官方Blog</a></li>
+						<li class="notborder"><a href="#">热词搜索</a></li>
+					</ul>
+					<p>Copyright&nbsp;(C)&nbsp;乐购网 &nbsp;2004-2016.  ALL  Rights  Reserved</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="css/shoppingcart.css"/>
+		<link rel="stylesheet" type="text/css" href="css/footer.css"/>
+		<script src="js/jquery-1.11.0.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/shoppingcart.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/search.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--头部-->
+		<div class="header">
+			<!--.head 拉通的浏览器的宽度-->
+			<div class="head">
+				<div class="content clear">
+					<p class="fl e5e5e5 font18 ht legochina head_text">legochina.cn</p>
+					<p class="fr font12 e5e5e5 m_r10">欢迎光临<a class="f60" href="index.html">乐购</a>,请&nbsp;<a href="login.html" class="e5e5e5">登录</a>\<a href="#" class="f60">注册</a></p>
+				</div>
+			</div>
+			<div class="content head_bg clear">
+				<ul class="logo_bg">
+					<li>购物车</li>
+				</ul>
+				<div class="search">
+					<form class="clear fr" id="search_form">
+						<input class="fl search_box" type="text" id="keySearch" value="创意文具"/>
+						<input class="fl search_submit" type="submit" id="btn" value=""/>
+					</form>
+				</div>
+				<p class="fr ht font14">
+					配送至：<select class="select">
+							<option value="gaoxi">成都高新区三环内</option>
+							<option value="wuhou">成都武侯区一环内</option>
+							<option value="jinliu">成都金牛区三环内</option>
+						</select>
+				</p>
+			</div>
+		</div>
+		
+		<!--内容-->
+		<div class="content">
+			<!--全部商品标题-->
+			<!--<div class="all_shopping_title">
+				<p class="font20 c666 m_t20">填写并核对订单信息</p>
+				<div class="shopping_title_con">
+					<button class="btn1"></button>  全选<span class="span1">商品</span><span>单价</span><span class="span2">数量</span><span>小计</span><span class="span3">操作</span>
+				</div>
+			</div>
+			<!--商品内容-->
+			<!--<div class="shopping_con m_t20">
+				<!--第一个商品-->
+				<!--<div class="shopping_con_list m_t22 c4c4c4c clear">
+					<button class="btn2 fl chooseCurrent"></button>
+					<div class="shopping_box fl">
+						<a href="#"><img src="img/demobook1.jpg"/></a>
+					</div>
+					<p class="fl m_t22">从你的全世界路过</p>
+					<p class="fl">41.00</p>
+					<div class="shopping_btn1 fl">
+						<button class="add">+</button><input type="text" id="shop_number" value="1" /><button class="jian">-</button>
+					</div>
+					<p class="fl">41.00</p>
+					<div class="shop_function fl">
+						<button class="disbtn">删除</button>
+						<button class="disbtn">移到我的关注</button>
+					</div>
+				</div>
+				<!--第二个商品-->
+				<!--<div class="shopping_con_list m_t22 c4c4c4c clear">
+					<button class="btn2 fl"></button>
+					<div class="shopping_box fl">
+						<a href="#"><img src="img/demobook1.jpg"/></a>
+					</div>
+					<p class="fl m_t22">从你的全世界路过</p>
+					<p class="fl">41.00</p>
+					<div class="shopping_btn1 fl">
+						<button class="add">+</button><input type="text" id="shop_number" value="1" /><button class="jian">-</button>
+					</div>
+					<p class="fl">41.00</p>
+					<div class="shop_function fl">
+						<button class="disbtn">删除</button>
+						<button class="disbtn">移到我的关注</button>
+					</div>
+				</div>
+			</div>-->
+			<!--结算-->
+			<!--<div class="shopping_totalprices clear m_t30">
+				<!--勾选-->
+				<!--<div class="shopping_totalprices_left fl">
+					<button class="btnall"></button>  全选<span class="span4">删除选中商品</span><span>已选中<span class="f60 font22 fontw"> 1 </span>件商品</span><span class="zongjia font20 fontw c4c4c4c">总价    <span class="f60">41.00</span></span>
+				</div>
+				<!--结算按钮-->
+				<!--<div class="shopping_totalprices_right fl">
+					<a class="fff" href="#">去结算</a>
+				</div>
+			</div>-->
+			<p class="font24 f60 m_t20">全部商品(<span id="num">2</span>)</p>
+			<div class="list_all">
+				<ul class="list_one clear bor_font">
+					<li class="w100"><input class="check_all m_l22" type="checkbox" />&nbsp;全选</li>
+					<li class="w500 text_center">商品</li>
+					<li class="w120 text_center">单价</li>
+					<li class="w180 text_center">数量</li>
+					<li class="w120 text_center">小计</li>
+					<li class="w180 text_center">操作</li>
+				</ul>
+				<ul class="list_one list_each clear border_top m_t20 font16 border_bottom_e6e6e6">
+					<li class="w100"><input class="check_one m_l22" checked="checked" type="checkbox" /></li>
+					<li class="w500 clear">
+						<div class="shop_img fl">
+							<img class="fl" src="img/images/23353342-1_l.jpg"/>
+						</div>
+						<span class="fl span1">从你的全世界路过</span>
+					</li>
+					<li class="w120 text_center m_t20">41.00</li>
+					<li class="w180 text_center clear m_t40">
+						<input class="fl reduce ml26" type="button" value="-" />
+						<input class="fl num text_center" type="text" value="5" />
+						<input class="fl plus" type="button" value="+" />
+					</li>
+					<li class="w120 text_center m_t20 font18 fontw one_price">41.00</li>
+					<li class="w180 text_center m_t20">
+						<p>删除</p>
+						<p>移动到我的关注</p>
+					</li>
+				</ul>
+				<ul class="list_one list_each clear m_t20 font16 border_bottom_e6e6e6">
+					<li class="w100"><input class="check_one m_l22" type="checkbox" /></li>
+					<li class="w500 clear">
+						<div class="shop_img fl">
+							<img class="fl" src="img/images/23353342-1_l.jpg"/>
+						</div>
+						<span class="fl span1">从你的全世界路过</span>
+					</li>
+					<li class="w120 text_center m_t20">41.00</li>
+					<li class="w180 text_center clear m_t40">
+						<input class="fl reduce ml26" type="button" value="-" />
+						<input class="fl num text_center" type="text" value="3" />
+						<input class="fl plus" type="button" value="+" />
+					</li>
+					<li class="w120 text_center m_t20 font18 fontw one_price">41.00</li>
+					<li class="w180 text_center m_t20">
+						<p>删除</p>
+						<p>移动到我的关注</p>
+					</li>
+				</ul>
+				<div class="jiesuan_box  list_all clear">
+					<ul class="list_one clear m_t20 font16 border-all fl">
+						<li class="w100"><input class="check_all m_l22" type="checkbox" />&nbsp;全选</li>
+						<li class="w500">
+							删除选中商品
+						</li>
+						<li class="w50 text_center">&nbsp;</li>
+						<li class="w200 text_center">
+							已选择 <span class="f60 font22" id="product_num">2</span>&nbsp;件商品
+						</li>
+						<li class="w180 text_center font20 c4c4c4c">
+							总价:<span class="f60" id="total">41.00</span>
+						</li>
+							
+					</ul>
+					<div class="jiesuan text_center m_t20 fff fl">
+						<a href="onlinePayment.html" class="fff">去结算</a>
+					</div>
+				</div>
+			</div>
+		
+		
+			<!--猜你喜欢-->
+			<div class="shopping_like">
+				<div class="productTitle">
+					<div class="prodictTitleCon">
+						猜你喜欢
+					</div>
+				</div>
+				<div class="productCon clear">
+					<!--第1个商品-->
+					<div class="productConbox fl shoplikecurrent">
+						<div class="productImg">
+							<a href="#"><img src="img/demobook1.jpg"/></a>
+						</div>
+						<p class="eightzhe"><a href="#"><img src="img/bgzhe.png"/></a></p>
+						<span class="bookname font14"><a href="#">从你的全世界路过</a>&nbsp;&nbsp;    <a href="#">张嘉佳</a></span>
+						<span class="f4290d m_l10 font14">推荐：&nbsp;<img src="img/star.png"/></span>
+						<div class="productConboxBto">¥:38 &nbsp;&nbsp;<span class="del_hui"> ¥:58</span> </div>
+					</div>
+					<!--第2个商品-->
+					<div class="productConbox fl morencurrent">
+						<div class="productImg">
+							<a href="#"><img src="img/demobook1.jpg"/></a>
+						</div>
+						<p class="eightzhe"><a href="#"><img src="img/bgzhe.png"/></a></p>
+						<span class="bookname font14"><a href="#">从你的全世界路过</a>&nbsp;&nbsp;    <a href="#">张嘉佳</a></span>
+						<span class="f4290d m_l10 font14">推荐：&nbsp;<img src="img/star.png"/></span>
+						<div class="productConboxBto">¥:38 &nbsp;&nbsp;<span class="del_hui"> ¥:58</span> </div>
+					</div>
+					<!--第3个商品-->
+					<div class="productConbox fl morencurrent">
+						<div class="productImg">
+							<a href="#"><img src="img/demobook1.jpg"/></a>
+						</div>
+						<p class="eightzhe"><a href="#"><img src="img/bgzhe.png"/></a></p>
+						<span class="bookname font14"><a href="#">从你的全世界路过</a>&nbsp;&nbsp;    <a href="#">张嘉佳</a></span>
+						<span class="f4290d m_l10 font14">推荐：&nbsp;<img src="img/star.png"/></span>
+						<div class="productConboxBto">¥:38 &nbsp;&nbsp;<span class="del_hui"> ¥:58</span> </div>
+					</div>
+					<!--第4个商品-->
+					<div class="productConbox fl morencurrent">
+						<div class="productImg">
+							<a href="#"><img src="img/demobook1.jpg"/></a>
+						</div>
+						<p class="eightzhe"><a href="#"><img src="img/bgzhe.png"/></a></p>
+						<span class="bookname font14"><a href="#">从你的全世界路过</a>&nbsp;&nbsp;    <a href="#">张嘉佳</a></span>
+						<span class="f4290d m_l10 font14">推荐：&nbsp;<img src="img/star.png"/></span>
+						<div class="productConboxBto">¥:38 &nbsp;&nbsp;<span class="del_hui"> ¥:58</span> </div>
+					</div>
+					<!--第5个商品-->
+					<div class="productConbox fl morencurrent">
+						<div class="productImg">
+							<a href="#"><img src="img/demobook1.jpg"/></a>
+						</div>
+						<p class="eightzhe"><a href="#"><img src="img/bgzhe.png"/></a></p>
+						<span class="bookname font14"><a href="#">从你的全世界路过</a>&nbsp;&nbsp;    <a href="#">张嘉佳</a></span>
+						<span class="f4290d m_l10 font14">推荐：&nbsp;<img src="img/star.png"/></span>
+						<div class="productConboxBto">¥:38 &nbsp;&nbsp;<span class="del_hui"> ¥:58</span> </div>
+					</div>
+				</div>
+			
+			</div>
+			<!--广告图-->
+			<div id="mosoureImg">
+				<a href="#"><img src="img/bannermosou.png"/></a>
+			</div>
+		</div>
+		<!--底部信息-->
+		<div class="footer">
+			<div id="footer_auto">
+				<div id="footer_autoCen" class="content clear">
+					<div class="bc1 fl"><a href="#"> </a></div>
+					<div class="bc2 fl"><a href="#"> </a></div>
+					<div class="bc3 fl"><a href="#"> </a></div>
+					<div class="bc4 fl"><a href="#"> </a></div>
+				</div>
+			</div>
+			<div id="footer_Con" class="content">
+				<!--底部信息中间部分-->
+				<div id="footer_Con_top" class="clear">
+					<div id="footer_Con_top_Left" class="fl clear">
+						<!--第1列信息-->
+						<div class="footer_Information fl">
+							<ul>
+								<li class="weight"><a class="font18 ht c000" href="#">购物指南</a></li>
+								<li><a class="b2b2b2" href="#">购物流程</a></li>
+								<li><a class="b2b2b2" href="#">发票制度</a></li>
+								<li><a class="b2b2b2" href="#">账户管理</a></li>
+								<li><a class="b2b2b2" href="#">会员优惠</a></li>
+							</ul>
+						</div>
+						<!--第2列信息-->
+						<div class="footer_Information fl">
+							<ul>
+								<li class="weight"><a class="font18 ht c000" href="#">支付方式</a></li>
+								<li><a class="b2b2b2" href="#">货到付款</a></li>
+								<li><a class="b2b2b2" href="#">网上支付</a></li>
+								<li><a class="b2b2b2" href="#">礼品卡支付</a></li>
+								<li><a class="b2b2b2" href="#">银行转账</a></li>
+							</ul>
+						</div>
+						<!--第3列信息-->
+						<div class="footer_Information fl">
+							<ul>
+								<li class="weight"><a class="font18 ht c000" href="#">订单服务</a></li>
+								<li><a class="b2b2b2" href="#">订单配送查询</a></li>
+								<li><a class="b2b2b2" href="#">订单状态说明</a></li>
+								<li><a class="b2b2b2" href="#">自助取消订单</a></li>
+								<li><a class="b2b2b2" href="#">自助修改订单</a></li>
+							</ul>
+						</div>
+						<!--第4列信息-->
+						<div class="footer_Information fl">
+							<ul>
+								<li class="weight"><a class="font18 ht c000" href="#">退换货</a></li>
+								<li><a class="b2b2b2" href="#">退换货政策</a></li>
+								<li><a class="b2b2b2" href="#">自助申请退换货</a></li>
+								<li><a class="b2b2b2" href="#">退换货进度查询</a></li>
+								<li><a class="b2b2b2" href="#">退款方式和时间</a></li>
+							</ul>
+						</div>
+						<!--第5列信息-->
+						<div class="footer_Information fl">
+							<ul>
+								<li class="weight"><a class="font18 ht c000" href="#">商家服务</a></li>
+								<li><a class="b2b2b2" href="#">商家中心</a></li>
+								<li><a class="b2b2b2" href="#">运营服务</a></li>
+								<li><a class="b2b2b2" href="#">加入尾品汇</a></li>
+							</ul>
+						</div>
+					</div>
+					<div id="footer_Con_top_Right" class="fr">
+						<a href="#"><img src="img/logo_00.png"/></a>
+					</div>
+				</div>
+				<!--底部信息简介-->
+				<div id="footerBto">
+					<ul class="clear">
+						<li><a href="#">公司简介</a></li>
+						<li><a href="#">Inverstor  Relations</a></li>
+						<li><a href="#">网站联盟</a></li>
+						<li><a href="#">乐购招商</a></li>
+						<li><a href="#">机构销售</a></li>
+						<li><a href="#">手机乐购</a></li>
+						<li><a href="#">官方Blog</a></li>
+						<li class="notborder"><a href="#">热词搜索</a></li>
+					</ul>
+					<p>Copyright&nbsp;(C)&nbsp;乐购网 &nbsp;2004-2016.  ALL  Rights  Reserved</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
